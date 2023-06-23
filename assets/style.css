@@ -1,0 +1,662 @@
+/* 102mm de large sans les marges */
+/* 18mm de marge à gauche (margin notes)*/
+/* 139mm de large dans les marges et dans la grosse marge de gauche*/
+/* marge de gauche : 55mm - 18mm = -37mm*/
+
+/* --------- Variable ---------- */
+
+:root{
+	--back-width : 2cm; /*taille du dos*/
+	--mono-font: "Sligoil";
+	--text-font: "HK Grotesk";
+	--title-font: "Ortica";
+	--icone-font: "icomoon";
+	--grey : #191919;
+	--baseline: 19px;
+}
+
+*{
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --------- Paramètres de base ---------- */
+@page{
+	size: 17cm 24cm;
+	  /*numéro de page*/
+	  @bottom-right {
+	   content: counter(page);
+	   font-size: 9pt;
+	   text-align: right;
+	   float: right;
+	   font-family: var(--mono-font);
+	   color: var(--grey);
+	   margin-bottom: -5mm;
+	 	}
+
+	 	/*titre courant*/
+	 	@bottom-left {
+	 		content: string(title);
+	    font-size: 9pt;
+	    margin-left: -3.3cm;
+	    text-transform: lowercase;
+	    font-family: var(--mono-font);
+	    color: var(--grey);
+	    margin-bottom: -5mm;
+	  }
+	  @bottom-left-corner{
+	  	content: "\e900";
+	  	font-family: var(--icone-font);
+	  	margin-left: -3.5cm;
+	  	font-size: 16pt;
+	  	margin-bottom: -5mm;
+	  }
+	}
+
+	@page :left {
+	  margin: 13mm 13mm 25mm 55mm;
+	}
+
+	@page :right {
+	  margin: 13mm 13mm 25mm 55mm;
+	}
+
+
+body{
+	font-size: 11pt; 
+	font-family: var(--text-font);
+}
+
+img{
+	width: 100%;
+}
+
+h1{
+	font-family: var(--title-font);
+	font-weight: normal;
+	font-size: 38pt;
+	margin-top: 0;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	string-set: title content(text);
+}
+
+h2, h3{
+	font-family: var(--title-font);
+	font-weight: normal;
+}
+
+h2 {
+	line-height: calc(var(--baseline)*1.5);
+}
+
+h3{
+	line-height: var(--baseline);
+}
+
+p{
+	text-align: justify;
+	hyphens: auto;
+	text-indent: 0.5cm;
+	margin-bottom: var(--baseline);
+	margin-top: 0;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+ul, figure, ol{
+	margin: 0;
+	padding: 0
+}
+
+
+/* --------- Couverture ---------- */
+.backcover, .back, .cover{
+	page-break-before: always;
+}
+
+.backcover{
+	page: backcover;
+}
+
+.back{
+	page: back;
+}
+
+.cover{
+	page: couverture;
+}
+
+@page back{
+	/*size: 4cm 24cm;*/
+	background: red;
+	margin: 0;
+}
+
+.pagedjs_backcover_page, .pagedjs_couverture_page{
+	margin-left: 0;
+	margin-right: 0;
+	box-shadow: none;
+}
+
+.pagedjs_back_page{
+	width: var(--back-width) !important;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+}
+
+.pagedjs_back_page h1{
+	transform: rotate(-90deg);
+	position: absolute;
+	top: 50%; 
+	left: -118px;
+}
+
+.pagedjs_couverture_page{
+	float: left;
+}
+
+.cover .pagedjs_pages{
+	width: calc((var(--pagedjs-width) * 2 + var(--back-width)) + (var(--margin) * 4));
+}
+
+/* --------- Pages intérieures ---------- */
+.chapter-left-page {
+  break-before: left;
+  page: chapterleft;	
+  width: 17cm;
+  height: 24cm;
+}
+
+@page chapterleft{
+	background: #000;
+	margin:0;
+}
+
+.chapter-left-page .icone{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  width: 10cm;
+}
+
+
+.chapter{
+	break-before: right
+}
+
+.chapter h1{
+	/*border: 1px solid #000;*/
+	/*padding: 0.2cm 0.2cm;*/
+	margin:0;
+/*	text-align: right;
+	display: inline-block;*/
+	width: 139mm;
+	margin-left: -37mm;
+/*	display: inline;
+  white-space: pre-wrap;
+  border: 0 solid #333;
+  */
+}
+
+.chapter h1 .highlight {
+  display: inline;
+	outline: 1px solid #000;
+  padding: 2mm 3mm;
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.chapter .icone{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1.5cm;
+	margin:0;
+}
+
+
+.summary{
+	font-family: var(--title-font);
+	/*position: relative;*/
+	width: 139mm;
+	margin-left: -37mm;
+	margin-top: 2.4mm;
+}
+
+.summary ol{
+	display: flex;
+	flex-wrap: wrap;
+	/*align-items: stretch;*/
+	/*justify-content: flex-end;*/
+}
+
+.summary li{
+	list-style: none;
+	position: relative;
+	border: 1px solid #000;
+	padding: 0.2cm 0.2cm;
+	font-size: 12pt;
+	/*flex-grow: 1;*/
+	/*display: inline-block;*/
+	margin-left: -1px;
+	margin-top: -1px;
+
+}
+/*
+.summary li:nth-child(1){
+	left: 1cm;
+	top: 1cm;
+}
+
+.summary li:nth-child(2){
+	left: 3cm;
+	top: 2cm;
+}
+
+.summary li:nth-child(3){
+	left: 0cm;
+	top: 4cm;
+}*/
+
+.chapter .content{
+	margin-top: 32mm;
+}
+
+.chapter .content p + h2 {
+	margin-top: calc(var(--baseline) * 3 - 7px);
+	margin-bottom: var(--baseline);
+	/*margin-bottom: 0;*/
+}
+
+.chapter .content p + h3 {
+	margin-top: calc(var(--baseline) * 2 - 2px);
+	margin-bottom: var(--baseline);
+	/*margin-bottom: 0;*/
+}
+
+.chapter .content h2 + h3{
+	margin-top: 0;
+}
+
+.chapter .content h2 strong{
+	font-weight: normal;
+}
+
+.chapter .content h2:first-child, .chapter .content h3:first-child{
+	margin-top: 0;
+}
+
+.chapter .content code{
+	font-family: var(--title-font);
+	/*left: 1cm;*/
+	/*position: relative;*/
+	/*margin-left: 2cm;*/
+	/*font-style: italic;*/
+	font-size: 0.9em;
+	width: calc(100% - 2cm);
+}
+
+.chapter .content ul{
+	margin-left: 1cm;
+}
+
+.chapter .content li{
+	list-style: none;
+}
+
+.chapter .content li:before{
+	content: "\e900";
+	font-family: var(--icone-font);
+	font-size: 1.3em;
+	margin-left: -0.7cm;
+	margin-right: 0.2cm;
+}
+
+.chapter figcaption{
+	font-size: 9pt;
+	font-family: var(--mono-font);
+	/*opacity: 0.6;*/
+}
+
+.chapter .content figure{
+	page-break-before: always;
+	page-break-after: always;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	page: imageTest;
+	filter: grayscale(1);
+}
+
+.chapter .content figure figcaption, .chapter .content figure figcaption a {
+	color: #FFF;
+}
+
+@page imageTest{
+	margin: 18mm 18mm 18mm 18mm;
+	background: #000;
+}
+
+.chapter .content .images-gallery{
+	page-break-before: always; 
+	page-break-after: always; 
+	page: imageTest;
+}
+
+.chapter .content .images-gallery ul{
+	display: flex; 
+	flex-wrap: wrap;
+	position: relative;
+	margin:0;
+}
+
+.chapter .content .images-gallery ul li{
+	width: 45%;
+	margin: 0.1cm 2.5%;
+	list-style: none;
+}
+
+.chapter .content .images-gallery ul li:before{
+	content: none;
+}
+
+.sources{
+	font-size: 9pt;
+	line-height: 1.2;
+	page-break-before: always;
+	page: sources;
+	color: #FFF;
+	word-wrap: break-word;;
+/*	border-left: 1px solid #FFF;
+	border-right: 1px solid #FFF;*/
+}
+
+.sources h2{
+	text-align: center;
+}
+
+.sources li{
+	list-style: none;
+	padding: 0.25cm 0.5cm;
+}
+
+.sources p, .sources a {
+	color: #FFF;
+	font-family: var(--mono-font);
+}
+
+.sources p:first-child, h2:first-child{
+ padding-top: 0;
+ margin-top:0;
+}
+
+@page sources{
+	background: #000;
+	margin: 13mm 18mm 25mm 18mm;
+}
+
+
+.map{
+	break-before: always; 
+	break-after: always;
+	page: map;
+	filter: grayscale(1);
+}
+
+
+@page map{
+	margin: 0;
+	background: #000;
+	@bottom-right {
+		content: none;
+	}
+	@bottom-left {
+		content: none;
+	}
+}
+
+@page map :left{
+		margin: 10mm 0mm 10mm 10mm;
+}
+
+@page map :right{
+		margin: 10mm 10mm 10mm 0mm;
+}
+
+.map-left{
+	break-before: left;
+}
+
+.map-left figure{
+	width: 200%;
+}
+
+.map-right figure{
+	width: 200%;
+	position: relative;
+	left: -100%;
+}
+
+.map-infos{
+	color: #FFF;
+	
+}
+
+.map-infos p, .map-infos h3{
+	margin: 0;
+	text-align: right;
+	/*margin-right: 1cm;*/
+	opacity: 0.8;
+}
+
+.map-infos h3{
+	padding-top: 0.5cm;
+}
+
+/* ----------- FOOTNOTES ----------- */
+
+.margin-note {
+	word-break: break-word;
+	padding-right: 4mm;
+	padding-left: 18mm;
+	line-height: 1.35;
+	font-size: 7pt;
+	text-align: left;
+	font-family: var(--mono-font);
+	font-weight: normal;
+	top: auto;
+	text-indent: 0cm;
+	hyphens: auto;
+	color: var(--grey);
+}
+
+.margin-note a{
+	color: var(--grey);
+}
+
+.note-call{
+	font-size: 7pt;
+	font-weight: normal;
+}
+
+.note-marker{
+	/*border: 1pt solid var(--grey);*/
+	padding: 0cm 0.1cm;
+	margin-right: 0.1cm;
+	margin-left: -0.5cm;
+}
+
+.note-marker:after{
+	content:".";
+}
+
+
+/*.footnote-ref{
+	text-decoration: none;
+	pointer-events: none;
+}*/
+
+/*.footnote-ref sup{
+	font-size: 7pt;
+	pointer-events: none;
+	margin-left: 0.02cm;
+	vertical-align: top;
+	position: relative;
+	top:-1px;
+	/*margin-right: -1px;*/
+	font-weight: bold;
+	/*font-family: sans-serif;*/
+}
+
+.footnote-p sup{
+	font-size: 5pt;
+	top:0;
+}
+
+.note-call_footnote-p{
+	display: none;
+}
+
+.note-pointer{
+	font-size: 7pt;
+	pointer-events: none;
+	font-weight: bold;
+	vertical-align: bottom;
+	margin-right: 4px;
+}
+
+
+/* ------- TABLE OF CONTENTS --------- */
+
+.toc-page{
+  page: toc;
+}
+
+@page toc{
+  @bottom-right {content: none;}
+	@bottom-left {content: none;}
+  @bottom-left-corner {content:none;}  
+}
+
+#table-of-contents{
+	margin-top: 4cm;
+	position: relative;
+}
+
+#table-of-contents ul{
+    padding:0;
+}
+
+#table-of-contents li{
+    margin-bottom: 4mm;
+    font-size: 14pt;
+    color: var(--green); 
+    line-height: 1.2;
+    text-align: left;
+}
+
+#table-of-contents li a{
+	display: inline-block;
+	color: var(--green); 
+	max-width: 80%;
+}
+
+#list-toc-generated{ list-style: none;}
+
+#list-toc-generated .toc-element a::after{
+    content: target-counter(attr(href), page);
+    position: absolute;
+    right:0;
+}
+
+#list-toc-generated .toc-element-level-1{
+    /*margin-top: 25px;*/
+    /*font-weight: bold;*/
+}
+
+#list-toc-generated .toc-element-level-2{
+    margin-left: 25px;
+}
+
+
+/* target-text(attr(href), before) doesn't work for now, replace with counters (see below)*/
+/* #list-toc-generated .toc-element a::before{
+    content: target-text(attr(href), before);
+} */
+
+/* counters */
+
+#list-toc-generated{ 
+    counter-reset: counterTocLevel1; 
+}
+
+#list-toc-generated .toc-element-level-1{ 
+    counter-increment: counterTocLevel1; 
+    counter-reset: counterTocLevel2; 
+}
+/*
+#list-toc-generated .toc-element-level-1::before{ 
+    content: counter(counterTocLevel1) ". ";
+    padding-right: 5px;
+}*/
+
+#list-toc-generated .toc-element-level-2{ 
+    counter-increment: counterTocLevel2; 
+}
+
+#list-toc-generated .toc-element-level-2::before{ 
+    content: counter(counterTocLevel1) ". " counter(counterTocLevel2) ". ";
+    padding-right: 5px;
+}
+
+/*  leader() doesn't work for now, replace with the hack bellow */
+/* #list-toc-generated .toc-element a::after{
+    content: leader('.') " p. " target-counter(attr(href), page);
+    float: right;
+} */
+
+/* hack for leaders */
+
+#list-toc-generated{
+    overflow-x: hidden;
+}
+
+/*#list-toc-generated .toc-element::after{
+    content: "...........................................................";
+    float: left;
+    width: 0;
+    padding-left: 5px;
+    letter-spacing: 2px;
+    color:#FFF;
+}*/
+
+/*#list-toc-generated .toc-element{
+    display: flex; 
+    position: relative;
+}
+
+#list-toc-generated .toc-element a::after{
+    position: absolute;
+    right: 0;
+    top:1mm;
+    right: 3mm;
+    padding-left: 6px;
+    display: block;
+}
+
+#list-toc-generated .toc-element a{
+    right: 0;
+}*/
+
+
+
+
+

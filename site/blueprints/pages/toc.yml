@@ -1,0 +1,8 @@
+title: Sommaire
+
+sections:
+  fields:
+    label: Info
+    type: info
+    text: |
+      Cette page permet de créer une page Sommaire

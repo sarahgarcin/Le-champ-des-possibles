@@ -1,0 +1,20 @@
+title: Image
+
+columns:
+  - width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          caption:
+            label: Légende
+            type: textarea
+            size: small
+  # - width: 1/2
+  #   sections:
+  #     meta:
+  #       type: fields
+  #       fields:
+  #         alt:
+  #           label: Alternative Text
+  #           type: text

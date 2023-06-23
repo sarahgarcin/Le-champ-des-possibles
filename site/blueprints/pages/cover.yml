@@ -1,0 +1,32 @@
+title: Couverture
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          headCouv:
+            label: Première de couverture
+            type: headline
+          titleCouv:
+            label: Titre
+            type: text
+          imageCouv:
+            label: image
+            type: files
+            multiple: false
+          lastCouv:
+            label: 4ème de couverture
+            type: headline
+          summary: 
+            label: Résumé
+            type: textarea
+  sidebar:
+    width: 1/3
+    sections:
+      files:
+        label: Fichiers
+        type: files
+
