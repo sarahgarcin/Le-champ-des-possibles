@@ -27,6 +27,8 @@ columns:
               - heading
               - text
               - list
+              - quote
+              - markdown
               - gallery
               - image
           sources:

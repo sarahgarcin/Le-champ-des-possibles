@@ -10,9 +10,296 @@ Text:
 
 - 
   content:
-    text: |
-      <p>Lorsque nous rencontrons la première fois le maire de Sevran pour parler de la construction d’une piscine à vague de surf qui fait controverse, un projet hérité de son prédécesseur et dont il s’apprête à confier le destin à un conseil participatif, il se désole que les médias et les débats se concentrent sur ce seul emblème aquatique. “On ne parle que de ça, sans voir le reste. C’est presque fait exprès, l’arbre qui cache la forêt” (note : Réunion entre le maire de Sevran, sa directrice de cabinet et deux chercheurs·ses du médialab de Sciences Po, le 4 novembre 2020 <a href="https://www.zotero.org/google-docs/?K4stQZ" rel="noopener noreferrer">(Blanchet 2020)</a>.). Or, les 2 hectares de vague artificielle, les 32 hectares de Terre d'Eaux “ne se feront jamais si on ne fait pas la ZAC qui va de Villepinte à [la gare RER B de] Sevran Livry. Soit la moitié de la ville”, précise-t-il, ajoutant que ces projets “ne sont pas déconnectés d’autres échelles, temporelles et spatiales”. </p><p>L’échelle spatiale dans laquelle ils s'inscrivent, c’est celle de la métropole du Grand Paris. Les opérations urbaines entreprises autour des deux gares de Sevran Beaudottes et Sevran Livry que vient connecter la nouvelle ligne 16 du Grand Paris express, ainsi que la zone d’aménagement concerté Sevran Terre d’Avenir, sont pilotées et encadrées par un établissement public, Grand Paris Aménagement. Pour cette institution, la ZAC “répond à des besoins identifiés à l’échelle de l’agglomération, à travers la création de 3 200 logements neufs, ainsi que par la création de 500 nouveaux emplois [...] et générera l’arrivée de nouvelles populations, 8 000 habitants” <a href="https://www.zotero.org/google-docs/?02BOUR" rel="noopener noreferrer">(Grand Paris Aménagement 2019)</a>, d’ici 2033. Elle contribuerait à atteindre les objectifs définis par le contrat de développement territorial de l’Est Seine-Saint-Denis, qui prévoit d’ici 2028 “la réalisation de 1 565 logements annuels” entre Aulnay-sous-Bois, Clichy-sous-Bois, Livry-Gargan, Montfermeil et Sevran. Le maire de Sevran se projette à plus long terme encore ; lui s’inquiète d’une bétonisation qui transformerait profondément sa ville en portant son nombre d’habitant·es de 50 000 à 70 000 voire 80 000, soit une augmentation de l’ordre de 50 %, à l’horizon 2050.</p><p>Dans ce contexte, également lié aux intérêts économiques de promoteurs immobiliers privés, dénicher dans le dense tissu urbain du cœur francilien un terrain vierge, ni encore bâti ni assez remarquable pour être protégé, relève de l’aubaine. C’est en effet comme un vide urbain que le champ au cœur de cet ouvrage, parfois appelé plaine Montceleux, est avant tout défini. Un vide qui ne demanderait qu’à être investi, mais dont nous proposons, plutôt que de s’interroger sur son nécessaire devenir, de revenir d’abord sur l’histoire.</p><p>Ce vide se définit au premier chef en creux d’un progressif remplissage tout autour de lui, à savoir l’intense phénomène d’urbanisation qu’a connu la ville de Sevran au XXe siècle. Les derniers projets qui le concernent s’inscrivent d'ailleurs dans cette dynamique de densification, comme le parachèvement d’un long mais inéluctable processus dont il faut interroger les causes.</p><p>Ce vide urbain constitue ensuite une énigme à résoudre : comment a-t-il aussi longtemps résisté au mitage urbain ? Véritable cimetière de projets, nous montrons combien, paradoxalement, la plaine Montceleux doit sa longévité à la succession d’initiatives qui s’y sont échafaudées et au nom desquelles, à chaque fois, ses jours étaient comptés.</p><p>&nbsp;Ce vide, enfin, peut devenir un objet de pensée. Produit d’une construction sociale et de ses représentations, notamment cartographiques, il masque peut-être sous son apparente vacuité des qualités ordinaires qui peuvent être appréciées.</p>
-  id: 1f570ec3-e74a-4072-a304-9caab56a49da
+    text: '<p>Ce chapitre examine la plaine Montceleux comme une friche dans la ville de Sevran. Si on l’observe attentivement, la friche n’est plus un délaissé urbain mais un refuge de biodiversité, certes ordinaire, mais indispensable au maintien de la trame du vivant, qui lie des humains et des non-humains sur ce territoire composite en transition.</p>'
+  id: 5b2c97d6-adca-4f57-8fe1-ff6c25be8ff0
+  isHidden: false
+  type: text
+- 
+  content:
+    level: h2
+    text: Un milieu socio-écologique riche
+  id: 1a1970ba-3bd2-415b-84a2-2246df9c5a99
+  isHidden: false
+  type: heading
+- 
+  content:
+    level: h3
+    text: Rendre remarquable ce que nous observons
+  id: f6b3dabe-22f8-4530-8d59-c36202ea2546
+  isHidden: false
+  type: heading
+- 
+  content:
+    text: '<p>Juin 2021. Nous retrouvons Benoît sur les 32 hectares, nous nous sommes donné·es rdv sur que nous avons fini par appeler, entre nous, «&nbsp;l’oasis&nbsp;» – cette zone arborée à l’est de la plaine Montceleux, qui tranche avec le champ nu au repos. Cela fait maintenant plusieurs mois que nous arpentons la zone, à l’écoute des oiseaux, à l’affût de sa végétation qui se transforme, cherchant à trouver des indices de son histoire dans son sol ou son environnement immédiat. Toujours dans l’intention de la décrire au plus près, attentif·ves à la manière dont notre perception de l’espace se transforme au fil du temps passé sur le terrain. Aujourd’hui, nous nous prêtons à des exercices pour appréhender autrement les 32 hectares, ou plus exactement en cherchant à solliciter d’autres de nos sens&nbsp;: «&nbsp;En tant qu’humains, nous mobilisons beaucoup le regard, nous observons avec les yeux – un peu avec les oreilles pour certain·es d’entre nous. Le paysage est de l’ordre de l’image. Nous allons aujourd’hui travailler sur d’autres formes d’abstraction(note:Cette proposition est empruntée au philosophe belge Didier Debaise. REF&nbsp;??).&nbsp;» Benoît précise&nbsp;: «&nbsp;Quand c’est abstrait, c’est distant, a-t-on l’habitude de dire. En réalité, faire abstraction n’est pas un geste particulièrement élaboré, cela arrive tout le temps. Ce geste a pour effet de réduire une partie de ce que l’on peut percevoir pour en amplifier une autre. C’est une manière de filtrer. Pendant que vous [lisez ce texte], vous faites abstraction de la perception de vos pieds sur le sol, vous n’y pensez pas.&nbsp;»</p><p><br>Il ne s’agit pas ici de préférer une abstraction à une autre, mais plutôt de s’intéresser aux effets que produit le fait d’en privilégier une en particulier. L’idée est d’aborder la plaine Montceleux&nbsp;autrement&nbsp;: non pas de l’observer depuis une perspective aérienne, tel l’aménageur projetant un futur la transformant, non pas de l’observer depuis sa lisière, tel un promeneur qui en ferait le tour, mais en s’enfonçant dans le site, en l’habitant avec le corps, dans l’immédiat. Prêter attention aux qualités de ce présent, et à l’expérience que l’on en fait, est une tout autre manière de comprendre un lieu. Cela pourrait peut-être nous permettre de saisir ce que l’histoire urbanistique ne nous dit pas du territoire où nous nous trouvons – qu’elle le taise ou qu’elle cherche à ne pas le mettre en avant. Une observation minutieuse et prolongée, de ce qui est à ras-du-sol et à hauteur du regard, à portée de main et à l’horizon, «&nbsp;rend chaque entité digne d’intérêt, permet de se lier lucidement à des environnements quotidiens et de les transformer par notre présence&nbsp;»(note:g.u.i. (Nicolas Couturier, Benoît Verjat et Tanguy Wermelinger) (dir.), <em>La navette n°2</em>, «&nbsp;Écotone&nbsp;», Biennale Internationale Design de Saint-Étienne 2022, sous le commissariat d’Ernesto Oroza.). Nous démarrons par un exercice d’écoute. Il s’agit de distinguer un maximum de sons autour de nous, de les identifier et de les nommer&nbsp;: du plus proche au plus lointain, des bruits de fond à notre propre respiration. Ce matin-là à Sevran, nous entendons la fauvette à tête noire, des corneilles, l’aboiement d’un chien, 14 voitures et 3 vélos, des avions proches qui paraissent très distants, le bourdonnement&nbsp;incessant d’insectes, l’alouette des champs, des pies, le RER B, le vent dans les arbres, une fermeture éclair qui voulait se faire discrète sans y parvenir, nos micromouvements, des voix humaines, une toux. Benoît nous propose ensuite un nouvel exercice mobilisant toujours notre écoute&nbsp;: il s’agit à présent de percevoir notre environnement sonore comme s’il ne formait qu’un seul son. C’est très difficile, presque impossible. Nous cherchons à sentir ce que cela fait de ne pas découper le réel en choses qu’on connaît – autrement dit, de s’exercer à ne pas faire abstraction.</p>'
+  id: 68f2aeb9-d6cc-436b-b380-e0b6f9debc46
+  isHidden: false
+  type: text
+- 
+  content:
+    location: kirby
+    image:
+      - 
+        id: 04-b-zac_montceleux-3.jpg
+        image:
+          back: black
+          color: orange-400
+          cover: false
+          icon: image
+          ratio: 3/2
+          url: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/40b980e3d6-1646262626/04-b-zac_montceleux-3.jpg
+          src: >
+            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+          srcset: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/40b980e3d6-1646262626/04-b-zac-montceleux-3-38x.jpg
+            38w,
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/40b980e3d6-1646262626/04-b-zac-montceleux-3-76x.jpg
+            76w
+        info: ""
+        link: >
+          /pages/interieur+ceci-est-une-friche/files/04-b-zac_montceleux-3.jpg
+        sortable: true
+        text: 04-b-zac_montceleux-3.jpg
+        uuid: file://On8HLB2PCZFBjZy5
+        dragText: '(image: 04-b-zac_montceleux-3.jpg)'
+        filename: 04-b-zac_montceleux-3.jpg
+        type: image
+        url: >
+          http://localhost:8080/media/pages/interieur/ceci-est-une-friche/40b980e3d6-1646262626/04-b-zac_montceleux-3.jpg
+    src: ""
+    alt: ""
+    caption: ""
+    link: ""
+    ratio: ""
+    crop: false
+  id: 2ee096c7-4828-4289-9624-2e57b5d78c16
+  isHidden: false
+  type: image
+- 
+  content:
+    location: kirby
+    image:
+      - 
+        id: 04-c-atelier-lecture-paysage-2.jpg
+        image:
+          back: black
+          color: orange-400
+          cover: false
+          icon: image
+          ratio: 3/2
+          url: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/937e8d2b2f-1654685274/04-c-atelier-lecture-paysage-2.jpg
+          src: >
+            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+          srcset: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/937e8d2b2f-1654685274/04-c-atelier-lecture-paysage-2-38x.jpg
+            38w,
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/937e8d2b2f-1654685274/04-c-atelier-lecture-paysage-2-76x.jpg
+            76w
+        info: ""
+        link: >
+          /pages/interieur+ceci-est-une-friche/files/04-c-atelier-lecture-paysage-2.jpg
+        sortable: true
+        text: 04-c-atelier-lecture-paysage-2.jpg
+        uuid: file://DJHGWwycjDsY5iEj
+        dragText: '(image: 04-c-atelier-lecture-paysage-2.jpg)'
+        filename: 04-c-atelier-lecture-paysage-2.jpg
+        type: image
+        url: >
+          http://localhost:8080/media/pages/interieur/ceci-est-une-friche/937e8d2b2f-1654685274/04-c-atelier-lecture-paysage-2.jpg
+    src: ""
+    alt: ""
+    caption: ""
+    link: ""
+    ratio: ""
+    crop: false
+  id: 21c1fccc-e177-4829-8590-34a063e8871f
+  isHidden: false
+  type: image
+- 
+  content:
+    text: '<p>Ces exercices, que complètent des balades silencieuses puis commentées en petits groupes, invitent à ouvrir d’autres manières de sentir et de se relier à son environnement immédiat. Soudainement, la friche paraît bien plus peuplée qu’auparavant&nbsp;: les oiseaux que l’œil non expérimenté repère mal se sont faits entendre, les plantes se sont manifestées dans toute leur diversité, le bruit des insectes s’est mêlé à celui des avions. «&nbsp;Qu’est-ce qu’on décide de rendre remarquable dans ce qu’on observe&nbsp;?&nbsp;» se demande la philosophe Vinciane Despret(note:«&nbsp;Ce que j’attendais d’eux en les convoquant n’est finalement pas très éloigné de ce que je demande aux oiseaux&nbsp;: de nous ouvrir l’imagination à d’autres façons de penser, de rompre avec certaines routines, de rendre perceptible l’effet de certains types d’attention — qu’est-ce qu’on décide de rendre remarquable dans ce qu’on observe&nbsp;? Pour rendre possibles d’autres histoires.&nbsp;» VD,<em> Habiter en oiseau</em>.) à propos des oiseaux. Cette question peut littéralement nous habiter dans l’exploration d’un terrain qui est loin d’être un vide, ni qu’une succession de plans plus ou moins agissants, ou un champ seulement. Car «&nbsp;<em>accorder</em> de l’attention […], c’est une autre façon de déclarer des importances.&nbsp;»&nbsp;Cette posture nous invite à laisser exister des choses que d’ordinaire nous ignorons, «&nbsp;de rompre avec certaines routines&nbsp;», «&nbsp;pour rendre possibles d’autres histoires&nbsp;». Cela nous permet d’écrire une version plus riche de la plaine Montceleux, son portrait fragmenté en de multiples facettes.</p><p>Cela fait également avancer notre enquête, en soulevant des détails qui suscitent questionnements et recherches. Il s’agit d’aiguiser nos sens pour intensifier l’expérience du lieu puis d’enrichir nos mémoires, personnelles et collectives, partagées et oubliées, cognitives et physiques. Cela contribue à faire vivre le lieu dans différentes temporalités&nbsp;: l’affûtage des sens au présent réactive des souvenirs qui rendent de nouvelles projections possibles. Aïcha s’est souvenue lorsqu’elle courait entre les rangées de maïs enfant, ou lorsque le champ était encore bordé de coquelicots rouge vif. Travailler, enquêter de cette manière nous attache à ce lieu (en particulier l’oasis&nbsp;!), plus et différemment, nous fait nous rendre compte de l’importance de l’ordinaire et le dote de grandes qualités. Ces pratiques d’attention pourraient nous aider à remédier à ce que l’écologue Audrey Muratet nomme «&nbsp;la cécité écologique&nbsp;» des urbain·es. Elles font en tout cas surgir de nombreuses questions, invitant à de nouveaux scénarios. Souvenons-nous,&nbsp;comme l’écrit Isabelle Stengers dans <em>Réactiver le sens commun</em>, que «&nbsp;l’enjeu de la question n’est pas la réponse qui sera donnée mais une transformation affective ou existentielle&nbsp;– un élargissement de l’imagination ».</p>'
+  id: 3f21b9ed-03a5-45b1-8588-876708fae01a
+  isHidden: false
+  type: text
+- 
+  content:
+    text: "– Qui vient sur la ZAC ? De qui les déchets sont-ils les traces ?<br>– Des personnes se reposent-elles ici comme pourraient le suggérer les herbes affaissées ?<br>– Pour quelle raison une partie de la ZAC est labourée ?– Quelles sont les règles pour le survol de la zone par des avions ? <br>– Quels phénomènes passés ou présents ont créé ces différents milieux sur la ZAC ?<br>– Les hautes herbes gardent-elle de la fraîcheur et de l'humidité au niveau du sol?<br>– La forêt qui se trouve en bord de prairie pourrait-elle s'étendre ? Si oui, à quelles conditions ?<br>– Ma présence a-t-elle un effet sur le milieu ? Si oui, cet effet est-il destructeur&nbsp;?<br>– Pourquoi y’a-t-il si peu de coquelicots sur le grand champ ?"
+    citation: >
+      Ces questions ont émergé
+      collectivement à la fin de l’atelier
+      mené par Benoît Verjat. L’exercice
+      consistait à poser de nombreuses
+      questions, suite à l’expérience
+      partagée, sans y apporter de réponse,
+      en les laissant en suspens.
+  id: 3d88b395-bd2e-46ab-9e69-b3eecc29c09c
+  isHidden: false
+  type: quote
+- 
+  content:
+    level: h3
+    text: >
+      Ce que la lecture écologique nous
+      apprend
+  id: c14b9c69-25bd-4e24-aafa-238bb877ef3b
+  isHidden: false
+  type: heading
+- 
+  content:
+    images:
+      - 
+        id: DOC040423-04042023170518.jpg
+        image:
+          back: pattern
+          color: orange-400
+          cover: false
+          icon: image
+          ratio: 1/1
+          url: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/41eeed3a52-1686803254/DOC040423-04042023170518.jpg
+          src: >
+            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+          srcset: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/41eeed3a52-1686803254/doc040423-04042023170518-352x.jpg
+            352w,
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/41eeed3a52-1686803254/doc040423-04042023170518-864x.jpg
+            864w,
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/41eeed3a52-1686803254/doc040423-04042023170518-1408x.jpg
+            1408w
+        info: ""
+        link: >
+          /pages/interieur+ceci-est-une-friche/files/DOC040423-04042023170518.jpg
+        sortable: true
+        text: DOC040423-04042023170518.jpg
+        uuid: file://kpgQAQyQbU2xXLSW
+        dragText: '(image: DOC040423-04042023170518.jpg)'
+        filename: DOC040423-04042023170518.jpg
+        type: image
+        url: >
+          http://localhost:8080/media/pages/interieur/ceci-est-une-friche/41eeed3a52-1686803254/DOC040423-04042023170518.jpg
+      - 
+        id: DOC040423-04042023171620.jpg
+        image:
+          back: pattern
+          color: orange-400
+          cover: false
+          icon: image
+          ratio: 1/1
+          url: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/4a88a7506c-1686803448/DOC040423-04042023171620.jpg
+          src: >
+            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+          srcset: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/4a88a7506c-1686803448/doc040423-04042023171620-352x.jpg
+            352w,
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/4a88a7506c-1686803448/doc040423-04042023171620-864x.jpg
+            864w,
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/4a88a7506c-1686803448/doc040423-04042023171620-1408x.jpg
+            1408w
+        info: ""
+        link: >
+          /pages/interieur+ceci-est-une-friche/files/DOC040423-04042023171620.jpg
+        sortable: true
+        text: DOC040423-04042023171620.jpg
+        uuid: file://lwMEFvLvqmSProDS
+        dragText: '(image: DOC040423-04042023171620.jpg)'
+        filename: DOC040423-04042023171620.jpg
+        type: image
+        url: >
+          http://localhost:8080/media/pages/interieur/ceci-est-une-friche/4a88a7506c-1686803448/DOC040423-04042023171620.jpg
+      - 
+        id: DOC040423-04042023171708.jpg
+        image:
+          back: pattern
+          color: orange-400
+          cover: false
+          icon: image
+          ratio: 1/1
+          url: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/f6674ff2f6-1686803438/DOC040423-04042023171708.jpg
+          src: >
+            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+          srcset: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/f6674ff2f6-1686803438/doc040423-04042023171708-352x.jpg
+            352w,
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/f6674ff2f6-1686803438/doc040423-04042023171708-864x.jpg
+            864w,
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/f6674ff2f6-1686803438/doc040423-04042023171708-1408x.jpg
+            1408w
+        info: ""
+        link: >
+          /pages/interieur+ceci-est-une-friche/files/DOC040423-04042023171708.jpg
+        sortable: true
+        text: DOC040423-04042023171708.jpg
+        uuid: file://n2rMU3W7wSWXm3qQ
+        dragText: '(image: DOC040423-04042023171708.jpg)'
+        filename: DOC040423-04042023171708.jpg
+        type: image
+        url: >
+          http://localhost:8080/media/pages/interieur/ceci-est-une-friche/f6674ff2f6-1686803438/DOC040423-04042023171708.jpg
+      - 
+        id: DOC040423-04042023171914.jpg
+        image:
+          back: pattern
+          color: orange-400
+          cover: false
+          icon: image
+          ratio: 1/1
+          url: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/791cbd6aaf-1686803426/DOC040423-04042023171914.jpg
+          src: >
+            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+          srcset: >
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/791cbd6aaf-1686803426/doc040423-04042023171914-352x.jpg
+            352w,
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/791cbd6aaf-1686803426/doc040423-04042023171914-864x.jpg
+            864w,
+            http://localhost:8080/media/pages/interieur/ceci-est-une-friche/791cbd6aaf-1686803426/doc040423-04042023171914-1408x.jpg
+            1408w
+        info: ""
+        link: >
+          /pages/interieur+ceci-est-une-friche/files/DOC040423-04042023171914.jpg
+        sortable: true
+        text: DOC040423-04042023171914.jpg
+        uuid: file://DgGrNWsjFYUb6zUF
+        dragText: '(image: DOC040423-04042023171914.jpg)'
+        filename: DOC040423-04042023171914.jpg
+        type: image
+        url: >
+          http://localhost:8080/media/pages/interieur/ceci-est-une-friche/791cbd6aaf-1686803426/DOC040423-04042023171914.jpg
+    caption: ""
+    ratio: ""
+    crop: false
+  id: e8901fb6-9dd0-48e3-a19e-79ff02698e55
+  isHidden: false
+  type: gallery
+- 
+  content:
+    text: '<p>Dans la récalcitrance de la plaine Montceleux à se laisser aisément catégoriser, une hypothèse est de la qualifier de «&nbsp;friche&nbsp;», comme nous l’a soufflé Cécile qui, dans son travail personnel et au sein du collectif Inter-friches, en a fait son objet de recherche et d’intérêt. Au premier abord, on a souvent l’impression qu’il n’y a rien&nbsp;dans les friches – ou plus exactement, que rien ne vaut d’y être remarqué. La friche est encore souvent perçue comme synonyme d’une absence de vie, où seules les broussailles pousseraient, étouffant tout. Au contraire, elles présentent les milieux écologiques les plus divers dans la ville, nous disent les écologues. Sur une seule friche, on compte parfois une centaine de plantes différentes – nous en avons dénombré près de trente en une matinée sur notre site –, et on distingue des présences animales – souvenons-nous du renard aperçu avant l’un des ateliers ! Le rôle joué par les friches dans le maintien de la biodiversité urbaine est bien connu et largement documenté(note:Sébastien Bonthoux, Sabine Greulich, Sabine Bouché-Pillon, Francesca di Pietro, «&nbsp;Le rôle des friches dans le maintien de la biodiversité en ville&nbsp;: une revue bibliographique&nbsp;». L’article se réfère notamment à Öckinger et al., 2009.)&nbsp;: elles présentent un nombre d’espèces plus élevé que les autres espaces verts urbains(note:Sébastien Bonthoux, Sabine Greulich, Sabine Bouché-Pillon, Francesca di Pietro, «&nbsp;Le rôle des friches dans le maintien de la biodiversité en ville&nbsp;: une revue bibliographique&nbsp;». «&nbsp;Alors que le processus global d’urbanisation engendre une fragmentation des habitats avec des effets néfastes sur la biodiversité, les friches représentent des habitats qui peuvent être potentiellement favorables pour le maintien de la biodiversité en ville.&nbsp;»). De par leur absence de gestion et leur libre évolution, parce qu’elles changent dans le temps et dans l’espace, les friches abritent une diversité d’habitats pour les espèces animales et végétales, dont le nombre augmente avec la taille des friches.</p><p>Appréhender une friche par les types de végétation qu’elle abrite nous apprend sur son histoire et son devenir. L’hétérogénéité des paysages que contient la friche est aussi une succession temporelle, écrit Audrey Muratet&nbsp;: les « végétations [des friches urbaines] sont dynamiques, évoluent dans le temps, se succédant en une séquence toujours identique. Le processus commence par une communauté d’espèces pionnières, les premières à coloniser des sols fraîchement perturbés qui seront progressivement remplacées par une autre communauté végétale plus dense, composées d’espèces sociales. Puis croissent les premiers arbustes, à l’ombre desquels se développent les arbres – les «&nbsp;adultes&nbsp;». La succession se caractérise notamment par la hauteur du couvert végétal qui augmente au cours du temps.&nbsp;»(note:Audrey Muratet, <em>Flore des friches urbaines</em>.)</p><p>En prêtant attention à sa végétation, la plaine Montceleux se montre comme un espace composite, dont la nature et la qualité des sols change parfois d’un mètre à l’autre. Cela nous invite à considérer la plaine Montceleux comme un écotone, cet espace de lisière et de transition entre deux milieux écologiquement différents, qui est plus plus que la somme des deux milieux qu’il lie. Ces «&nbsp;espaces limites, lieux d’interfaces (…) obligent à complexifier les classifications de milieux et rend caduques les binarités de nature et culture, les différences entres milieux naturels et milieux artificiels. »(note:<em>Ibid</em>.) L’écologie urbaine, cette «&nbsp;branche théorique et appliquée de l’écologie aux influences naturalistes, sociologiques, géographiques, philosophiques&nbsp;»(note:Audrey Muratet, <em>Manuel d’écologie urbaine</em>.) est un outil précieux pour étudier le vivant dans la ville et rendre compte de leurs intrications. L’histoire d’un lieu se lit dans sa végétation, qui résulte de facteurs environnementaux et anthropiques&nbsp;: quand un champ au printemps présente une dominance de rouge, c’est de l’oseille attestant d’un sol épuisé par l’agriculture. Dans des espaces anciennement pollués, on observe une végétation vert fluo ou violet foncé. Plus un sol a été traité, dégradé, occupé ou potentiellement pollué, moins la végétation est nombreuse et variée.&nbsp;</p><p>Le grand espace agricole de la plaine Montceleux, qui s’étend d’un seul tenant sur 27 hectares, accueillait jusque 2019 des cultures céréalières. Il est maintenant au repos, en jachère – en friche, <em>littéralement</em>. Lors d’un premier repérage effectué au printemps 2022 en compagnie de l’écologue Marion Brun, nous avons pu constater la diversité de milieux et de végétations du site, en cela caractéristique des friches. Le champ était recouvert de rosettes, ces plantes dont les feuilles s’étalent en cercle au sol&nbsp;: cette famille de chardons et de pissenlits est le signe d’une terre cultivée qui n’est pas mauvaise. Sur sa partie est, à la lisière du chemin bordé de platanes, un espace ouvert et non géré présente un milieu très différent. La présence du compagnon blanc, parmi des trèfles très hauts, indique que le sol n’y a jamais été tassé et paraît même de bonne qualité. Nous y observons l’armoise commune (<em>artemisia annua</em>), la carotte sauvage, la vergerette, le gaillet gratteron, la laitue et la vesce, toutes appartenant à la végétation des friches qui succède aux milieux pionniers. On retrouve également des espèces prairiales, homogènes et très sociales, comme le dactyle et le pâturin commun (ou pâturin des près&nbsp;?), qui font disparaître le sol sous leur densité. Il s’agit d’herbes intermédiaires, se situant en-dessous du regard humain. Les différentes strates de végétation indiquent que l’espace évolue librement depuis longtemps, sans coupe&nbsp;: de petits peupliers, des arbres rudéraux, c’est-à-dire une espèce pionnière, commence à «&nbsp;fermer&nbsp;» l’espace en inaugurant le stade arboré. Attenant à cette zone, sur ce que l’on nomme «&nbsp;techno-sol&nbsp;» ou «&nbsp;anthropo-sol&nbsp;» à cause du macadam qui le recouvre, poussent des ronces et des mûriers de manière foisonnante, ce qui est typique des friches urbaines et industrielles. On y trouve le pâturin comprimé (<em>poa compressa</em>), spécifique des interstices minéralisés dont la « flore assez discrète […] a su s’adapter […] [aux] faibles quantités de terre et d’eau disponibles dans les fentes et les recoins du sol&nbsp;». Non loin poussent le mouron rouge (<em>lysimachia arvensis</em>) et la moutarde des champs (<em>sinapis arvensis</em>), végétation caractéristique des milieux pionniers et des sols remodelés, «&nbsp;la première qui va croître suite à une perturbation ayant mis le sol à nu&nbsp;». Enfin, le long du fossé, en bord de route, on distingue une bande de zone humide – une noue permet de récupérer l’eau qui ruisselle. À certains endroits, elle devient arborée&nbsp;: elle va agir comme une haie et permettre la circulation d’espèces animales. Outre les roseaux observés à la lisière de la plaine, sur son pourtour au niveau de la route, se développe la prêle des champs, propre aux berges et aux zones humides.</p><p>Cette lecture écologique de la plaine Montceleux souligne sa biodiversité, en de nombreux points similaires à celle des friches de la petite couronne parisienne.&nbsp; Pour autant, si les friches peuvent apparaître comme des oasis dans une écologie urbaine contrainte et réduite, hébergeant de nombreuses espèces, c’est aussi parce que les villes sont à l’origine d’une perte importante de biodiversité. En effet, elles entraînent un «&nbsp;processus d’homogénéisation biotique&nbsp;», qui «&nbsp;désigne le gain des espèces ubiquistes [colonisant différents types de milieux, comme le Pigeon biset ou le Pâturin annuel] et la perte d’espèces locales&nbsp;», et donc «&nbsp;la similitude des faunes et des flores urbaines à travers le monde&nbsp;»(note:&nbsp;Muratet Audrey, Chiron François, <em>Manuel d’écologie urbaine</em>, Dijon, Les Presses du Réel, 2019.), et ce, d’autant plus que l’évolution génétique est rapide en ville. La richesse locale que nous avons pu observer est concomitante d’une érosion de la biodiversité globale.</p><p>&nbsp;Une friche est un lieu d’émergence du vivant, où pousse ce qui veut pousser, même discrètement. Le sol est une banque de graines et, au moment où l’activité humaine faiblit ou cesse sur un site, sort ce qui a envie de sortir. Cela ne concerne pas que les plantes, mais aussi les animaux et les humains&nbsp;: viennent sur la friche celles et ceux qui ont envie. Comme nous par exemple. Sans autorisation, nous sommes entré·es, avons traversé, farfouiné, collecté. La friche est un espace de liberté, elle s’inscrit dans des « paysages urbains [qui] peuvent être appréhendés comme des systèmes socio-écologiques complexes, dans lesquels les décisions et les choix de gestion humains créent des mosaïques spatio-temporelles de différents types d’habitats.&nbsp;»(note:Sébastien Bonthoux, Sabine Greulich, Sabine Bouché-Pillon, Francesca di Pietro, «&nbsp;Le rôle des friches dans le maintien de la biodiversité en ville&nbsp;: une revue bibliographique&nbsp;».) Intéressons-nous maintenant à ses enjeux sociaux, politiques et territoriaux.</p>'
+  id: b972a3a2-eb45-4ef9-850f-ad3301efc36c
+  isHidden: false
+  type: text
+- 
+  content:
+    level: h2
+    text: >
+      Penser la plaine Monceleux comme une
+      friche
+  id: ba071cd4-f0ba-406e-8153-72053c134e4c
+  isHidden: false
+  type: heading
+- 
+  content:
+    level: h3
+    text: Une urbanité non planifiée
+  id: 66ec4eb7-d1d7-4822-8ec4-efba050a641c
+  isHidden: false
+  type: heading
+- 
+  content:
+    text: '<p>À l’origine, la friche vient du monde agricole, elle est synonyme de jachère et désigne un soin apporté à la terre dans la rotation des cultures. Était en friche ce que l’on voulait protéger, préserver. Avec le temps, l’évolution des pensées, laisser se reposer est devenu délaisser, mettre de côté, perdre quelque chose. Cette perception négative remonte à loin et, déjà au XVIIe siècle, le Dictionnaire universel de Furetière définissait la friche comme « un champ négligé et inculte. » Si les «&nbsp;friches frondeuses&nbsp;[…] n’ont pas bonne presse », c’est parce que leur paysage est synonyme d’un passé révolu, d’une déprise industrielle ou agricole&nbsp;par exemple. Depuis les années 1970, la perception des friches s’est modifiée. Laisser à l’abandon signifie laisser le lieu se régénérer. La pression foncière a ensuite réinséré les friches dans les dynamiques urbaines&nbsp;: elles ont commencé à être vues comme des espaces d’opportunité économique.&nbsp;</p><p>La notion de «&nbsp;friche&nbsp;»&nbsp;est poreuse, elle se superpose parfois à celles de « vacance » ou de « bâti dégradé ». Si les définitions de la friche sont variables, nombre d’entre elles soulignent la nécessaire «&nbsp;intervention préalable » à son «&nbsp;réemploi&nbsp;» et l’inscrivent ainsi au cœur des politiques de développement et d’aménagement des villes. Une de ses caractéristiques est donc sa mutabilité, c’est-à-dire sa capacité à se résorber ou se transformer. Ce caractère changeant induit des perceptions et des imaginaires très différents selon qui l’observe. Certains acteurs voient les friches comme des espaces abandonnés, sources de gaspillage foncier, entraînant à la baisse la valeur du foncier du quartier où elles se situent. Au contraire, elles peuvent être perçues comme des espaces utiles&nbsp;: d’un point de vue du bien-être lorsqu’elles constituent des espaces de respiration, d’un point de vue environnemental par leur régulation climatique ou en devenant des refuges de biodiversité, d’un point de vue social en offrant des espaces de création artistique, culturelle ou associative. «&nbsp;Il demeure encore aujourd’hui difficile d’arriver à une vision partagée collectivement.&nbsp;»</p>'
+  id: ff8079dd-4587-4b44-9021-c211a6d9d5cf
   isHidden: false
   type: text
 

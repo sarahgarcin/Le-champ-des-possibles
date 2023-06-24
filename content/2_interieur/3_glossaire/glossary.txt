@@ -1,0 +1,22 @@
+Title: Glossaire
+
+----
+
+Glossary:
+
+- 
+  title: Friche
+  def: "<p>Une <strong>friche</strong> est un terrain précédemment exploité (champ, prairie, verger, vigne, jardin...), abandonné par l'Homme et colonisé par une végétation spontanée (espèces héliophiles, rudérales). Cette zone sans occupant humain actif n’est plus cultivée, productive ni même entretenue, mais des activités marginales peuvent s’y étendre si ses parties restent accessibles : pâturage, cueillette, braconnage, chasse ou pêche et autres activités.</p>"
+- 
+  title: Boule à facettes
+  def: '<p>Une boule à facettes, également appelée boule miroir, boule à miroirs, boule tango ou boule disco, est une boule, généralement rotative, et recouverte de petits miroirs qui réfléchissent la lumière, créant ainsi une ambiance lumineuse particulière.</p>'
+- 
+  title: Vide
+  def: '<p>Qui ne contient rien de concret, qui est dépourvu de son contenu</p>'
+- 
+  title: Plan
+  def: '<p>Uni, plat, sans inégalités de niveau, sans courbure</p>'
+
+----
+
+Uuid: F7sn0c4KRX7ihrnN

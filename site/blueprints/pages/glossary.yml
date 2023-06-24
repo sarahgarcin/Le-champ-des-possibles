@@ -1,0 +1,16 @@
+title: Glossaire
+
+sections:
+  fields:
+    type: fields
+    fields:
+      glossary: 
+        label: Glossaire
+        type: structure
+        fields:
+          title: 
+            label: Entrée du glossaire
+            type: text
+          def: 
+            label: Définition 
+            type: writer

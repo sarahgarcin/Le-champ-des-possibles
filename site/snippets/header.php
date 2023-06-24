@@ -8,6 +8,7 @@
 	<link href="assets/preview.css" rel="stylesheet" type="text/css">
 	<link href="assets/interface-0.1.css" rel="stylesheet" type="text/css">
 	<link href="assets/style.css" rel="stylesheet" type="text/css">
+	<script src="assets/smartquote.js"></script>
 	<script src="assets/paged.polyfill.js"></script>
 	<script src="assets/script.js"></script>
 </head>

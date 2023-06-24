@@ -16,6 +16,135 @@ class toc extends Paged.Handler {
   }
 Paged.registerHandlers(toc);
 
+//  ---- MICRO TYPO ----
+// using smartquotes
+class smartquote extends Paged.Handler {
+  constructor(chunker, polisher, caller) {
+      super(chunker, polisher, caller);
+  }
+
+  beforeParsed(content) {
+    smartquotes(content);
+    // replace the dash using regex
+    var regexCapital = /--/g;
+    // look for all element inside the body
+    var all = document.querySelectorAll("body *");
+    // for each of those elements
+    all.forEach(element => {
+        // replace ` -- ` with `&mdash;` 
+        element.innerHTML = element.innerHTML.replace(regexCapital, '&mdash;');
+        // console.log(element.innerHTML);
+        element.innerHTML = element.innerHTML.replace(/“/g, "«&#8239");
+        element.innerHTML = element.innerHTML.replace(/”/g, "&#8239»");
+        element.innerHTML = element.innerHTML.replace("/« /g", "«&#8239");
+        element.innerHTML = element.innerHTML.replace("/ »/g", "&#8239»");
+    })
+  }
+}
+// register the hook: 
+Paged.registerHandlers(smartquote);
+
+
+// clean quotes 
+// fait buggué le script des margins notes 
+// script désactivé
+// class jolietypo extends Paged.Handler {
+//   constructor(chunker, polisher, caller) {
+//     super(chunker, polisher, caller);
+//   }
+
+//   beforeParsed(content){          
+//     // let text = content.innerHTML;
+//     const paragraphs = content.querySelectorAll('p');
+
+//     // for each of those p,
+//     paragraphs.forEach((p) => {
+//       const content = p.textContent;
+//       let result = content.replace("« ", "«&#8239");
+//       result = result.replace(" »", "&#8239»");
+//       result = result.replace("“", "«&#8239");
+//       result = result.replace("”", "&#8239»");
+//       // console.log(p);
+//       p.innerHTML = content;
+//     });
+//   }  
+// }
+
+// Paged.registerHandlers(jolietypo);
+
+//  ---- C O R R E C T    P O S I T I O N    O F    I M A G E S ----
+
+var classElemFullPage = "full-page";
+
+class fullPageStuff extends Paged.Handler {
+  constructor(chunker, polisher, caller) {
+    super(chunker, polisher, caller);
+    this.fullPageEls = new Set();
+    this.usedPagedEls = new Set();
+  }
+
+  renderNode(clone, node) {
+    // if you find a full page element, move it in the array
+    if (node.nodeType == 1 && node.classList.contains(classElemFullPage)) {
+    // console.log(node);
+    this.fullPageEls.add(node);
+      this.usedPagedEls.add(node);
+
+      // remove the element from the flow by hiding it.
+      clone.style.display = "none";
+    }
+  }
+
+  afterPageLayout(pageElement, page, breakToken, chunker) {
+    // if there is an element in the fullPageEls Set, (goodbye arrays!)
+
+    for (let img of this.fullPageEls) {
+      // if(page.element.classList.contains("pagedjs_right_page")) {
+        
+      //   let imgRight = img.cloneNode(true);
+
+      // put the first element on the page
+    //   if (!this.usedPagedEls.has(img)) {
+        let fullPage = chunker.addPage();
+        fullPage.element
+          .querySelector(".pagedjs_page_content")
+          .insertAdjacentElement("afterbegin", img);
+        fullPage.element.classList.add("pagedjs_page_full-image");
+
+        // console.log(this.fullPageEls);
+        // console.log(this.usedPagedEls);
+
+        this.fullPageEls.delete(img);
+    //   }
+    // }
+    }
+  }
+}
+Paged.registerHandlers(fullPageStuff);
+
+
+//----- W R A P     H 2  &  H 3   W I T H     S P A N -----
+
+class wrapHeaders extends Paged.Handler {
+  constructor(chunker, polisher, caller) {
+    super(chunker, polisher, caller);
+  }
+
+  beforeParsed(content){          
+    let h2El = content.querySelectorAll('h2');
+    h2El.forEach(function(element) {
+      let h2Content = element.innerHTML;
+      element.innerHTML = '<span class="highlight">'+h2Content+'</span>';
+    });
+    let h3El = content.querySelectorAll('h3');
+    h3El.forEach(function(element) {
+      let h3Content = element.innerHTML;
+      element.innerHTML = '<span class="highlight">'+h3Content+'</span>';
+    });
+  }   
+}
+Paged.registerHandlers(wrapHeaders);
+
 // -------------- M A R G I N     N O T E S      S C R I P T -----------------
 
 let classNotes = "margin-note"; // ← Change the CLASS of the notes here
@@ -215,10 +344,162 @@ class marginNotes extends Paged.Handler {
 
  Paged.registerHandlers(marginNotes);
 
+// ------ G L O S S A R Y ----------- 
+// ne fonctionne pas non plus, même soucis que pour jolie typo
+class glossary extends Paged.Handler {
+  constructor(chunker, polisher, caller) {
+    super(chunker, polisher, caller);
+  }
+
+  beforeParsed(content){ 
+    let all = content.querySelectorAll("p"); 
+    let wordsToFind = ['vide', 'plan', 'friche'];
+    
+    all.forEach((element) => { 
+      // Iterate over each word to find
+      for (let i = 0; i < wordsToFind.length; i++) {
+        let word = wordsToFind[i];
+        // Create a regular expression with the word as a pattern (case-insensitive)
+        let regex = new RegExp('\\b' + word + '\\b', 'gi');
+        // Replace the word with the wrapped version using a span tag
+        element.innerHTML = element.innerHTML.replace(regex, '<span class="book-index">$&</span>');
+      }
+    }); 
+
+    // createIndex({
+    //   spanClassIndex: 'book-index',
+    //   indexElement: '#glossary',  
+    //   alphabet: true        
+    // });
+   
+
+  }  
+}
+
+Paged.registerHandlers(glossary);
+
 
 
 /* FUNCTIONS -------------------------------------------------------------------------------------- 
 --------------------------------------------------------------------------------------------------- */
+
+// GLOSSARY
+// function createIndex(config){
+//     let indexElements = document.getElementsByClassName(config.spanClassIndex);
+//     let arrayIndex = [];
+//     let num = 0;
+
+//     for(let i = 0; i < indexElements.length; ++i){
+//         let indexElement = indexElements[i];
+
+//         // create array with all data-book-index
+//         let indexKey = indexElement.dataset.bookIndex;
+//         let indexKeyFirst = indexKey.slice(0, 1);
+//         let newIndexKey; 
+//         if(indexKeyFirst == "<"){
+//             if(indexKey.slice(0, 3) == "<i>"){
+//                 newIndexKey = indexKey.replace("<i>", "") + "-iTemp";         
+//             }else if(indexKey.slice(0, 4) == "<em>"){
+//                 newIndexKey = indexKey.replace("<em>", "") + "-emTemp";
+//             }
+//         }else{
+//             newIndexKey = indexKey;
+//         }
+        
+//         arrayIndex.push(newIndexKey);
+
+//         // create id for span whithout
+//         num++;
+//         if(indexElement.id == ''){ indexElement.id = 'book-index-' + num; }
+//     }
+
+
+//     // filter array to remove dublicate and sort by alphabetical order
+//     let newArrayIndex = arrayIndex.filter(onlyUnique).sort(function(a,b) {
+//         a = a.toLowerCase();
+//         b = b.toLowerCase();
+//         if( a == b) return 0;
+//         return a < b ? -1 : 1;
+//     });
+
+//     // create <ul> element for the index
+//     let indexElementDiv = document.querySelector(config.indexElement);
+//     let indexUl = document.createElement("ul");
+//     indexUl.id = "list-index-generated";
+//     indexElementDiv.appendChild(indexUl); 
+
+
+//     // create <li> element for the index
+//     for(var a = 0; a < newArrayIndex.length; a++){           
+
+//         // create alaphabet
+//         if(config.alphabet){
+//             z = a - 1;
+//             let firstLetter = newArrayIndex[a].toUpperCase().slice(0, 1);
+//             if(a == 0){
+//                 let alphabetLiFirst = document.createElement("li");
+//                 alphabetLiFirst.classList.add("list-alphabet-element");
+//                 alphabetLiFirst.id = "alphabet-element-" + firstLetter;
+//                 alphabetLiFirst.innerHTML = firstLetter;
+//                 indexUl.appendChild(alphabetLiFirst);
+//             }
+//             if(z > 0){
+//                 let firstLetterPrevious = newArrayIndex[z].toUpperCase().slice(0, 1);
+//                 if(firstLetter != firstLetterPrevious){
+//                     let alphabetLi = document.createElement("li");
+//                     alphabetLi.classList.add("list-alphabet-element");
+//                     alphabetLi.id = "alphabet-element-" + firstLetter;
+//                     alphabetLi.innerHTML = firstLetter;
+//                     indexUl.appendChild(alphabetLi); 
+//                 }
+//             }
+//         }
+
+//         // create <li> element for the index
+//         let indexNewLi = document.createElement("li");
+//         indexNewLi.classList.add("list-index-element");
+        
+//         let dataIndex;
+//         if(newArrayIndex[a].substr(newArrayIndex[a].length - 6) == "-iTemp"){
+//             dataIndex = "<i>" + newArrayIndex[a].replace("-iTemp", "");         
+//         }else if(newArrayIndex[a].substr(newArrayIndex[a].length - 7) == "-emTemp"){
+//             dataIndex = "<em>" + newArrayIndex[a].replace("-emTemp", "");   
+//         }else{
+//             dataIndex = newArrayIndex[a];
+//         }
+    
+//         indexNewLi.dataset.listIndex = dataIndex;
+//         indexUl.appendChild(indexNewLi);  
+//     }
+
+//     let indexLi = document.getElementById('list-index-generated').getElementsByClassName('list-index-element');
+
+//     for(var n = 0; n < indexLi.length; n++){
+        
+//         // find data and add HTML of the list
+//         let dataIndex = indexLi[n].dataset.listIndex;
+//         let spanIndex = document.querySelectorAll("[data-book-index='" + dataIndex + "']");
+//         indexLi[n].innerHTML = '<span class="index-value">' + dataIndex + '</span><span class="links-pages"></span>';
+
+//         // add span for link page
+//         spanIndex.forEach(function(elem) {
+//             spanIndexId = elem.id;
+//             let spanPage = document.createElement("span");
+//             spanPage.classList.add("link-page");
+//             spanPage.innerHTML = '<a href="#' + spanIndexId + '"></a>';
+//             indexLi[n].getElementsByClassName('links-pages')[0].appendChild(spanPage);  
+//         });
+  
+//     }
+// }
+
+
+// function for filter array to remove dublicate
+function onlyUnique(value, index, self) { 
+    return self.indexOf(value) === index;
+}
+
+
 
 // TOC
 function createToc(config){
@@ -230,7 +511,7 @@ function createToc(config){
     let tocUl = document.createElement("ul");
     tocUl.id = "list-toc-generated";
     tocElementDiv.appendChild(tocUl); 
-    console.log(tocElementDiv);
+    // console.log(tocElementDiv);
 
     // add class to all title elements
     let tocElementNbr = 0;

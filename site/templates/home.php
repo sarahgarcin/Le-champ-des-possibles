@@ -57,6 +57,23 @@
 			<?php endif;?>
 		</div>
 	<?php endif;?>
+	<?php if($chapter->intendedTemplate() == "glossary"):?>
+		<div class="glossary-page">
+			<h1><?= $chapter->title()?></h1>
+			<section id="glossary">
+				<ul>
+				<?php foreach($chapter->glossary()->toStructure() as $item):?>
+					<li>
+						<h2><?= $item->title()?></h2>
+						<?= $item->def()->kt()?>
+						<div class="glossary-link-page">21, 30, 45, 120</div>
+					</li>
+				<?php endforeach ?>
+				</ul>
+			</section>
+			
+		</div>
+	<?php endif;?>
 <?php endforeach ?>
 
 <?php snippet('footer'); ?>

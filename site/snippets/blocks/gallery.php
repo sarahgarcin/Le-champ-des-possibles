@@ -4,7 +4,7 @@ $caption = $block->caption();
 $crop    = $block->crop()->isTrue();
 $ratio   = $block->ratio()->or('auto');
 ?>
-<figure<?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?> class="images-gallery">
+<figure<?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?> class="images-gallery full-page">
   <ul>
     <?php foreach ($block->images()->toFiles() as $image): ?>
     <li>

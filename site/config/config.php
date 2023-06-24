@@ -3,9 +3,11 @@
 return [
     'debug'  => true,
     'smartypants' => [
-    	'attr'  => 3,
+    	'attr'  => 1,
     	'doublequote.open'  => '«&#8239;',
     	'doublequote.close'  => '&#8239;»',
+        'backtick.doublequote.open'  => '«&#8239;',
+        'backtick.doublequote.close' => '&#8239;»',
     	'space.emdash'  => ' ',
     	'space.endash'  => ' ',
     	'space.colon'  => '&#8239;',
@@ -14,9 +16,7 @@ return [
     	'space.frenchquote'  => '&#8239;',
     	'space.thousand'  => '',
     	'space.unit'  => ' ',
-        'backtick.doublequote.open'     => '«&#8239;',
-        'backtick.doublequote.close'    => '&#8239;»',
-        'geresh'                     => '&#1523;',
+        'geresh'      => '&#1523;',
     ]
 ];
 
