@@ -1,0 +1,13 @@
+title: Page vide
+
+sections:
+  fields:
+    type: fields
+    fields:
+      whiteblack: 
+        label: Blanc ou Noir ?
+        type: radio
+        options: 
+          white : Blanc
+          black : Noir
+        width: 1/2

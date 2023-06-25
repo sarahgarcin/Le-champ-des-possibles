@@ -1,0 +1,19 @@
+title: Entrée et Sortie
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          icones: 
+            label: Icône
+            type: files
+  sidebar:
+    width: 1/3
+    sections:
+      files:
+        label: Fichiers / Images
+        type: files
+

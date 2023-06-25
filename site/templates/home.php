@@ -3,10 +3,46 @@
 
 <?php $chapters = $site->find('interieur')->children()->listed();?>
 <?php foreach($chapters as $chapter):?>
+	<?php if($chapter->intendedTemplate() == "blank"):?>
+		<div class="blank-page <?= $chapter->whiteblack() ?>"></div>
+	<?php endif;?>
+	<?php if($chapter->intendedTemplate() == "entrance"):?>
+		<div class="entrance-page">
+			<?php 
+				$pics = $chapter->icones()->toFiles();
+				$picsOne = $pics->slice(0, $pics->count() / 2);
+				$picsTwo = $pics->slice($pics->count() / 2, $pics->count());
+			?>
+			<div class="entrance-page-left">
+				<ul>
+					<?php foreach($picsOne as $pic):?>
+						<li>
+							<figure>
+								<img src="<?= $pic->url()?>">
+							</figure>
+						</li>
+					<?php endforeach?>
+				</ul>
+			</div>
+			<div class="entrance-page-right">
+				<ul>
+					<?php foreach($picsTwo as $pic):?>
+						<li>
+							<figure>
+								<img src="<?= $pic->url()?>">
+							</figure>
+						</li>
+					<?php endforeach?>
+				</ul>
+			</div>
+		</div>
+	<?php endif;?>
 	<?php if($chapter->intendedTemplate() == "toc"):?>
 		<div class="toc-page">
 			<h1><?= $chapter->title()?></h1>
+			<div class="empty-square"></div>
 			<section id="table-of-contents"></section>
+			<div class="empty-square final"></div>
 		</div>
 	<?php endif;?>
 	<?php if($chapter->intendedTemplate() == "map"):?>

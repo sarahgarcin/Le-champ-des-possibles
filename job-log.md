@@ -1,19 +1,24 @@
 # Job log
 
 ## TO DO
-- ok - Designer les sources 
-- ok - Designer les listes 
+- ok - Pouvoir ajouter une page blanche ou noir sans le livre
+- ok - Ajouter les icônes dans le sommaire
 - Faire fonctionner les icônes pour qu'ils soient associés à un chapitre
-- ok - Tester images herbier 
+- ok - Finir de mettre le contenu de Friche
+- Vérifier les lignes de bases 
+- ok - Ajouter tous les icônes au début et à la fin du bouquin
 - Debug upload svg : https://forum.getkirby.com/t/cannot-upload-svg-to-files/14785 (voir chapitre 2)
-- ok - regarder toute les possibilités de config smartypants — Faire fonctionner smartypants / micro typo
-- Designer le sommaire
-- ok - Designer le glossaire
 - Code pour faire un glossaire -> mot à chercher dans le texte, récupère la page et l'affiche
 - Faire la version web
 
 
 ## Done
+- ok - Tester images herbier 
+- ok - regarder toute les possibilités de config smartypants — Faire fonctionner smartypants / micro typo
+- ok - Designer le sommaire
+- ok - Designer le glossaire
+- ok - Designer les sources 
+- ok - Designer les listes
 - ok - Faire un tag pour ajouter des encadrés dans le texte
 - ok - Uniformiser les tailles typos
 - ok - Faire toutes les images pour les entrées de chapitre
