@@ -9,7 +9,8 @@ class toc extends Paged.Handler {
       createToc({
         content: content,
         tocElement: '#table-of-contents',
-        titleElements: [ '.chapter h1' ]
+        titleElements: [ '.chapter h1', '.chapter h2' ]
+        // subTitleElements : '.summary li'
       });
     }
     
@@ -106,6 +107,7 @@ class fullPageStuff extends Paged.Handler {
       // put the first element on the page
     //   if (!this.usedPagedEls.has(img)) {
         let fullPage = chunker.addPage();
+        console.log(fullPage);
         fullPage.element
           .querySelector(".pagedjs_page_content")
           .insertAdjacentElement("afterbegin", img);
@@ -502,21 +504,94 @@ function onlyUnique(value, index, self) {
 
 
 // TOC
+// function createToc(config){
+//     const content = config.content;
+//     const tocElement = config.tocElement;
+//     const titleElements = config.titleElements;
+//     // const subTitleElements = config.subTitleElements;
+
+//     let tocElementDiv = content.querySelector(tocElement);
+//     let tocUl = document.createElement("ul");
+//     tocUl.id = "list-toc-generated";
+//     tocElementDiv.appendChild(tocUl); 
+//     // console.log(tocElementDiv);
+
+//     // add class to all title elements
+//     let tocElementNbr = 0;
+//     for(var i= 0; i < titleElements.length; i++){
+        
+//         let titleHierarchy = i + 1;
+//         let titleElement = content.querySelectorAll(titleElements[i]);
+
+
+//         titleElement.forEach(function(element) {
+//             // add classes to the element
+//             element.classList.add("title-element");
+//             element.setAttribute("data-title-level", titleHierarchy);
+
+//             // add id if doesn't exist
+//             tocElementNbr++;
+//             idElement = element.id;
+//             if(idElement == ''){
+//                 element.id = 'title-element-' + tocElementNbr;
+//             } 
+//             let newIdElement = element.id;
+
+//         });
+
+//     }
+
+//     // create toc list
+//     let tocElements = content.querySelectorAll(".title-element");  
+
+//     for(var i= 0; i < tocElements.length; i++){
+//         let tocElement = tocElements[i];
+//         let tocNewLi = document.createElement("li");
+//         // let subTitles = tocElement.parentNode.querySelectorAll(subTitleElements);
+//         // let subTocNewUl = document.createElement("ul");
+        
+//         // subTitles.forEach(function(element) {
+//         //   let subTocNewLi = document.createElement("li");
+//         //   subTocNewLi.innerHTML = element.innerHTML; 
+//         //   subTocNewUl.appendChild(subTocNewLi);
+//         // });
+
+
+//         // Add class for the hierarcy of toc
+//         tocNewLi.classList.add("toc-element");
+//         tocNewLi.classList.add("toc-element-level-" + tocElement.dataset.titleLevel);
+
+//         // Keep class of title elements
+//         let classTocElement = tocElement.classList;
+//         for(var n= 0; n < classTocElement.length; n++){
+//             if(classTocElement[n] != "title-element"){
+//                 tocNewLi.classList.add(classTocElement[n]);
+//             }   
+//         }
+
+//         // Create the element
+//         let elId = string_to_slug(tocElement.innerHTML);
+//         tocNewLi.innerHTML = '<a href="#' + tocElement.id + '" id="'+elId+'">' + tocElement.innerHTML + '</a>';
+//         // tocUl.appendChild(tocNewLi);
+//         // tocNewLi.appendChild(subTocNewUl);  
+//     }
+
+// }
+
 function createToc(config){
     const content = config.content;
     const tocElement = config.tocElement;
     const titleElements = config.titleElements;
-    
+
     let tocElementDiv = content.querySelector(tocElement);
     let tocUl = document.createElement("ul");
     tocUl.id = "list-toc-generated";
-    tocElementDiv.appendChild(tocUl); 
-    // console.log(tocElementDiv);
+    tocElementDiv.appendChild(tocUl);
 
     // add class to all title elements
     let tocElementNbr = 0;
     for(var i= 0; i < titleElements.length; i++){
-        
+
         let titleHierarchy = i + 1;
         let titleElement = content.querySelectorAll(titleElements[i]);
 
@@ -532,7 +607,7 @@ function createToc(config){
             idElement = element.id;
             if(idElement == ''){
                 element.id = 'title-element-' + tocElementNbr;
-            } 
+            }
             let newIdElement = element.id;
 
         });
@@ -540,7 +615,7 @@ function createToc(config){
     }
 
     // create toc list
-    let tocElements = content.querySelectorAll(".title-element");  
+    let tocElements = content.querySelectorAll(".title-element");
 
     for(var i= 0; i < tocElements.length; i++){
         let tocElement = tocElements[i];
@@ -552,17 +627,22 @@ function createToc(config){
         tocNewLi.classList.add("toc-element-level-" + tocElement.dataset.titleLevel);
 
         // Keep class of title elements
+        //let classTocElement = tocElement.classList;
+        //for(var n= 0; n < classTocElement.length; n++){
+        //    if(classTocElement[n] != "title-element"){
+        //      tocNewLi.classList.add(classTocElement[n]);
+        //    }
+       //  }
         let classTocElement = tocElement.classList;
         for(var n= 0; n < classTocElement.length; n++){
-            if(classTocElement[n] != "title-element"){
-                tocNewLi.classList.add(classTocElement[n]);
-            }   
+           if(classTocElement[n] != "title-element"){
+             tocNewLi.classList.add("toc-"+classTocElement[n]);
+           }
         }
 
         // Create the element
-        let elId = string_to_slug(tocElement.querySelector('.highlight').innerHTML);
-        tocNewLi.innerHTML = '<a href="#' + tocElement.id + '" id="'+elId+'">' + tocElement.innerHTML + '</a>';
-        tocUl.appendChild(tocNewLi);  
+        tocNewLi.innerHTML = '<a href="#' + tocElement.id + '">' + tocElement.innerHTML + '</a>';
+        tocUl.appendChild(tocNewLi);
     }
 
 }

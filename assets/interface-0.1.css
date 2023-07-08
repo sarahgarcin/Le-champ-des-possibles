@@ -89,9 +89,9 @@
     /* uncomment this par to see the baseline : -------------------------------------------*/
 
      
-    /*.pagedjs_pagebox {
-        --pagedjs-baseline: 17px;
-        --pagedjs-baseline-position: -4px;
+/*    .pagedjs_pagebox {
+        --pagedjs-baseline: 17.5px;
+        --pagedjs-baseline-position: -6px;
         --pagedjs-baseline-color: cyan;
         background: linear-gradient(var(--color-paper) 0%, var(--color-paper) calc(var(--pagedjs-baseline) - 1px), var(--pagedjs-baseline-color) calc(var(--pagedjs-baseline) - 1px), var(--pagedjs-baseline-color) var(--pagedjs-baseline)), transparent;
         background-size: 100% var(--pagedjs-baseline);

@@ -1,4 +1,4 @@
-Title: Entrée du livre
+Title: Sortie du livre
 
 ----
 
@@ -37,4 +37,4 @@ Icones:
 
 ----
 
-Uuid: GlyKkRQazV4TybyJ
+Uuid: LQeAhpzqaNbccaqk

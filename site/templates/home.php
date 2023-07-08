@@ -7,9 +7,9 @@
 		<div class="blank-page <?= $chapter->whiteblack() ?>"></div>
 	<?php endif;?>
 	<?php if($chapter->intendedTemplate() == "entrance"):?>
-		<div class="entrance-page">
+		<div class="entrance-page" id="<?= Str::slug($chapter->title())?>">
 			<?php 
-				$pics = $chapter->icones()->toFiles();
+				$pics = $chapter->icones()->toStructure();
 				$picsOne = $pics->slice(0, $pics->count() / 2);
 				$picsTwo = $pics->slice($pics->count() / 2, $pics->count());
 			?>
@@ -18,7 +18,9 @@
 					<?php foreach($picsOne as $pic):?>
 						<li>
 							<figure>
-								<img src="<?= $pic->url()?>">
+								<?php $image = $pic->icone()->toFile();?>
+								<img src="<?= $image->url()?>">
+								<figcaption><?= $pic->title()?> <?= $pic->page()?></figcaption>
 							</figure>
 						</li>
 					<?php endforeach?>
@@ -29,7 +31,9 @@
 					<?php foreach($picsTwo as $pic):?>
 						<li>
 							<figure>
-								<img src="<?= $pic->url()?>">
+								<?php $image = $pic->icone()->toFile();?>
+								<img src="<?= $image->url()?>">
+								<figcaption><?= $pic->title()?> <?= $pic->page()?></figcaption>
 							</figure>
 						</li>
 					<?php endforeach?>
@@ -40,9 +44,7 @@
 	<?php if($chapter->intendedTemplate() == "toc"):?>
 		<div class="toc-page">
 			<h1><?= $chapter->title()?></h1>
-			<div class="empty-square"></div>
 			<section id="table-of-contents"></section>
-			<div class="empty-square final"></div>
 		</div>
 	<?php endif;?>
 	<?php if($chapter->intendedTemplate() == "map"):?>

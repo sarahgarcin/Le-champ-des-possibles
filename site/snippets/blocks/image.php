@@ -7,6 +7,7 @@ $crop    = $block->crop()->isTrue();
 $link    = $block->link();
 $ratio   = $block->ratio()->or('auto');
 $src     = null;
+$position = $block->position();
 
 if ($block->location() == 'web') {
     $src = $block->src()->esc();
@@ -17,7 +18,7 @@ if ($block->location() == 'web') {
 
 ?>
 <?php if ($src): ?>
-<figure class="full-page" <?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?>>
+<figure class="full-page <?= $position?>" <?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?>>
   <?php if ($link->isNotEmpty()): ?>
   <a href="<?= Str::esc($link->toUrl()) ?>">
     <img src="<?= $src ?>" alt="<?= $alt->esc() ?>">

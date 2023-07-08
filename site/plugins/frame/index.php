@@ -5,14 +5,18 @@ Kirby::plugin('sarahgarcin/frame', [
     'frame' => [
       'attr' => [
         'frame',
-        'black' 
+        'black', 
+        'grey' 
       ],
       'html' => function($tag) {
         $frame = $tag->attr('frame');
         $black = $tag->attr('black');
+        $grey = $tag->attr('grey');
         $class = '';
         if($black =='yes'):
           $class = "black";
+        elseif ($grey =='yes'):
+          $class = "grey";
         else:
           $class = "";
         endif; 

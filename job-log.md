@@ -1,38 +1,13 @@
 # Job log
 
 ## TO DO
-- ok - Pouvoir ajouter une page blanche ou noir sans le livre
-- ok - Ajouter les icônes dans le sommaire
 - Faire fonctionner les icônes pour qu'ils soient associés à un chapitre
-- ok - Finir de mettre le contenu de Friche
-- Vérifier les lignes de bases 
-- ok - Ajouter tous les icônes au début et à la fin du bouquin
+- Design Table des matières 
+- Finir le chemin de fer (Annexes)
+- ok - Vérifier les lignes de bases 
 - Debug upload svg : https://forum.getkirby.com/t/cannot-upload-svg-to-files/14785 (voir chapitre 2)
 - Code pour faire un glossaire -> mot à chercher dans le texte, récupère la page et l'affiche
 - Faire la version web
-
-
-## Done
-- ok - Tester images herbier 
-- ok - regarder toute les possibilités de config smartypants — Faire fonctionner smartypants / micro typo
-- ok - Designer le sommaire
-- ok - Designer le glossaire
-- ok - Designer les sources 
-- ok - Designer les listes
-- ok - Faire un tag pour ajouter des encadrés dans le texte
-- ok - Uniformiser les tailles typos
-- ok - Faire toutes les images pour les entrées de chapitre
-- ok - Générer une typo avec les formes de boules à facettes (facile à faire sur https://icomoon.io/app/#/select/font)
-- ok - Inclure les typos
-- ok - Ajouter des variables: typo / marges etc
-- ok - Faire des calculs ligne de base pour que tout soit aligné
-- ok - Générer le sommaire
-- ok - Sources = taille typo plus petite
-- ok - Agrandir les marges intérieures page de gauche (car reliure non suisse)
-- ok - Faire en sorte que l'image se cale auto sur la page en face, et que le texte continue à couler
-- ok - Enlever l'italique sur le block citation + mettre plus petit
-- ok - Plusieurs types de citations => avoir des effets graphiques différents ?
-- ok - Designer les citations…
 
 ## Couverture 
 - Sur la couverture ajouter un plan en vert (chapitre 6), celui en haut à droite sous le titre
@@ -43,6 +18,7 @@
 
 ## Questions
 - Quelles sont les différents types de citation ?
+- Doit-il y avoir une interpage "Annexes" ? ou on démarre les Annexes direct ?
 
 ## Questions déjà posées
 - Chapitre 2: Organisation des images par ordre + commentaires dans le doc = très pratique
@@ -65,6 +41,32 @@
         + contenu
         + images
       - Partie 2
+
+## Done
+- ok - Ajouter tous les icônes au début et à la fin du bouquin
+- ok - Finir de mettre le contenu de Friche
+- ok - Pouvoir ajouter une page blanche ou noir sans le livre
+- ok - Ajouter les icônes dans le sommaire
+- ok - Tester images herbier 
+- ok - regarder toute les possibilités de config smartypants — Faire fonctionner smartypants / micro typo
+- ok - Designer le sommaire
+- ok - Designer le glossaire
+- ok - Designer les sources 
+- ok - Designer les listes
+- ok - Faire un tag pour ajouter des encadrés dans le texte
+- ok - Uniformiser les tailles typos
+- ok - Faire toutes les images pour les entrées de chapitre
+- ok - Générer une typo avec les formes de boules à facettes (facile à faire sur https://icomoon.io/app/#/select/font)
+- ok - Inclure les typos
+- ok - Ajouter des variables: typo / marges etc
+- ok - Faire des calculs ligne de base pour que tout soit aligné
+- ok - Générer le sommaire
+- ok - Sources = taille typo plus petite
+- ok - Agrandir les marges intérieures page de gauche (car reliure non suisse)
+- ok - Faire en sorte que l'image se cale auto sur la page en face, et que le texte continue à couler
+- ok - Enlever l'italique sur le block citation + mettre plus petit
+- ok - Plusieurs types de citations => avoir des effets graphiques différents ?
+- ok - Designer les citations…
 
 
 

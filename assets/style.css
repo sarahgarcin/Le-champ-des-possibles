@@ -12,7 +12,7 @@
 	--title-font: "Ortica";
 	--icone-font: "icomoon";
 	--grey : #191919;
-	--baseline: 17px;
+	--baseline: 17.5px;
 }
 
 *{
@@ -99,9 +99,10 @@ h3{
 p{
 	text-align: justify;
 	hyphens: auto;
-	text-indent: 0.5cm;
+	/*text-indent: 0.5cm;*/
 	margin-bottom: var(--baseline);
 	margin-top: 0;
+	line-height: 18px;
 }
 
 a{
@@ -116,6 +117,12 @@ ul, figure, ol{
 
 ul li{
 	list-style: none;
+}
+
+sup, sub {
+  vertical-align: top;
+  position: relative;
+  top: -0.4em;
 }
 
 /* custom pagenreak from kirbytag break*/
@@ -219,10 +226,77 @@ ul li{
 }
 
 .entrance-page li{
-	padding: var(--baseline);
+	/*padding: var(--baseline);*/
 	width: 6.5cm;
-	margin:auto;
+	position: absolute;
 }
+
+.entrance-page-left li:nth-child(2){
+	left: 7.5cm;
+	top: 6cm;
+}
+
+.entrance-page-left li:nth-child(3){
+	left: 1cm;
+	top: 14cm;
+}
+
+.entrance-page-right li:nth-child(1){
+	left: 4cm;
+	top: 0cm;
+}
+
+.entrance-page-right li:nth-child(2){
+	left: 6cm;
+	top: 6.5cm;
+}
+
+.entrance-page-right li:nth-child(3){
+	left: 2cm;
+	top: 15cm;
+}
+
+.entrance-page li figcaption{
+	text-align: center;
+	font-weight: 500;
+}
+
+#sortie-du-livre figcaption{
+	 display: none;
+}
+
+#sortie-du-livre .entrance-page-left li:nth-child(1){
+	left: 3cm;
+  z-index: 6;
+}
+
+#sortie-du-livre .entrance-page-left li:nth-child(2){
+  left: 5cm;
+  top: 4.5cm;
+  z-index: 5;
+}
+
+#sortie-du-livre .entrance-page-left li:nth-child(3){
+  left: 7.5cm;
+  top: 6.5cm;
+  z-index: 4;
+}
+
+#sortie-du-livre .entrance-page-right li:nth-child(1){
+	left: 4cm;
+	top: 0cm;
+}
+
+#sortie-du-livre .entrance-page-right li:nth-child(2){
+	left: 6cm;
+	top: 6.5cm;
+}
+
+#sortie-du-livre .entrance-page-right li:nth-child(3){
+	left: 2cm;
+	top: 15cm;
+}
+
 
 .entrance-page{
 	page: entrance;
@@ -248,11 +322,11 @@ ul li{
 }
 
 .chapter-left-page .icone{
-  position: absolute;
+  position: relative;
   top: 50%;
-  left: 50%;
-  transform: translate(-60%, -50%);
   width: 10cm;
+  margin:auto;
+  margin-top: -50%;
 }
 
 
@@ -311,15 +385,21 @@ ul li{
 .summary li{
 	list-style: none;
 	position: relative;
-	border: 1px solid #000;
+	outline: 1px solid #000;
+/*	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;*/
 	padding: 0.2cm 0.2cm;
 	font-size: 12pt;
 	/*flex-grow: 1;*/
 	/*display: inline-block;*/
-	margin-left: -1px;
-	margin-top: -1px;
-
+/*	margin-left: -2px;
+	margin-top: -2px;*/
 }
+
+/*.summary li:first-child{
+	border-left: 1px solid #000;
+}*/
 /*
 .summary li:nth-child(1){
 	left: 1cm;
@@ -340,43 +420,53 @@ ul li{
 	margin-top: 32mm;
 }
 
-.chapter .content h2, .chapter .content h3{
-	/*margin-left: 0.5cm;*/
+.chapter .content h2{
+	margin-bottom: calc(var(--baseline) - 0.7mm);
+} 
+
+.chapter .content h3{
+	margin-bottom: var(--baseline);
 }
 
 .chapter .content h2 .highlight, .chapter .content h3 .highlight{
-  display: inline;
+/*  display: inline;
 	outline: 1px solid #000;
   padding: 1mm 2mm;
   -webkit-box-decoration-break: clone;
   -ms-box-decoration-break: clone;
   -o-box-decoration-break: clone;
-  box-decoration-break: clone;
+  box-decoration-break: clone;*/
 }
 
-.chapter .content p + h2 {
-	margin-top: calc(var(--baseline) * 3 - 7px);
-	margin-bottom: var(--baseline);
+.chapter .content p + h2, .chapter .content ul + h2 {
+	margin-top: calc(var(--baseline) * 3 - 1.9mm);
+	margin-bottom: calc(var(--baseline) - 0.5mm);
+	line-height: 1.37;
 	/*margin-bottom: 0;*/
 }
 
-.chapter .content p + h3 {
-	margin-top: calc(var(--baseline) * 2 - 2px);
+.chapter .content p + h3, .chapter .content ul + h3 {
+	margin-top: calc(var(--baseline) * 2);
 	margin-bottom: var(--baseline);
 	/*margin-bottom: 0;*/
 }
 
 .chapter .content h2 + h3{
-	margin-top: -8.5px;
-  margin-bottom: calc(var(--baseline) + 2mm);
+/*	margin-top: -7.5px;*/
+  margin-bottom: calc(var(--baseline));
+  margin-top: 0;
 }
 
 .chapter .content h2 strong{
 	font-weight: normal;
 }
 
+.chapter .content h2:first-child{
+	margin-top: -1.7mm;
+}
+
 .chapter .content h2:first-child, .chapter .content h3:first-child{
-	margin-top: 0;
+	margin-top: -0.1mm;
 }
 
 .chapter .content p .highlight{
@@ -395,6 +485,11 @@ ul li{
   background: #000;
 }
 
+.chapter .content p .highlight.grey{
+  background: #BFBFBF;
+  outline-color: #BFBFBF;
+}
+
 .chapter .content code{
 	font-family: var(--text-font);
 	position: relative;
@@ -409,7 +504,7 @@ ul li{
 }
 
 .chapter .content blockquote{
-	border-left: 1px solid #000;
+	/*border-left: 1px solid #000;*/
 	margin: 0;
 	margin-left: 1cm;
 	font-size: 9pt;
@@ -437,7 +532,7 @@ ul li{
 }
 
 .chapter .content li:before{
-	content: "▧";
+	content: "—";
 	font-size: 9pt;
 	margin-left: -0.4cm;
 	margin-right: 0.1cm;
@@ -460,9 +555,13 @@ ul li{
 figure.full-page{
 /*	page-break-before: always;
 	page-break-after: always;*/
-	position: absolute;
+	/*position: absolute;*/
 	/*left: 50%;*/
-	top: 50%;
+	/*top: 50%;*/
+	position: absolute;
+  top: 50%;
+  /*margin:auto;*/
+  /*margin-top: -50%;*/
 	transform: translateY(-50%);
 	/*page: imageTest;*/
 	filter: grayscale(1);
@@ -470,18 +569,29 @@ figure.full-page{
 	margin-left: -37mm;
 }
 
+figure.full-page.top{
+	top: 0;
+	transform: none;
+}
+
+figure.full-page.bottom{
+	bottom: 0;
+	transform: none;
+}
+
 .pagedjs_page_full-image{
   background: #000;
 }
+
 
 figure figcaption, figure figcaption a{
 	color: #FFF;
 }
 
-@page imageTest{
+/*@page imageTest{
 	margin: 18mm 18mm 18mm 18mm;
 	background: #000;
-}
+}*/
 
 .images-gallery{
 /*	page-break-before: always; 
@@ -560,19 +670,9 @@ figure figcaption, figure figcaption a{
 @page sources{
 	background: #000;
 	margin: 13mm 25mm 13mm 25mm;
- @bottom-right {
-   color: #FFF;
-   margin:0;
- 	}
- 	/*titre courant*/
- 	@bottom-left {
- 		color: #FFF;
- 		margin:0;
-  }
-  @bottom-left-corner{
-  	color: #FFF;
-  	margin:0;
-  }
+ @bottom-right {content:none;}
+ 	@bottom-left {content:none;}
+  @bottom-left-corner{content:none;}
 }
 
 
@@ -657,6 +757,8 @@ figure figcaption, figure figcaption a{
 .note-call{
 	font-size: 7pt;
 	font-weight: normal;
+	/* méthode pour régler l'interlignage correctement quand il y a un note*/
+	line-height: 0;
 }
 
 .note-marker{
@@ -874,6 +976,14 @@ figure figcaption, figure figcaption a{
     background: #000;
     color: #FFF;
     font-weight: 500;
+}
+
+#list-toc-generated .toc-element ul > li::before{
+	content: target-counter(attr(href), page);
+}
+
+#list-toc-generated .toc-element-level-2 {
+	margin-left: 1.3cm;
 }
 
 
