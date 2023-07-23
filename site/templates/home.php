@@ -99,12 +99,14 @@
 		<div class="glossary-page">
 			<h1><?= $chapter->title()?></h1>
 			<section id="glossary">
-				<ul>
+				<ul id="list-index-generated-glossary-index">
 				<?php foreach($chapter->glossary()->toStructure() as $item):?>
-					<li>
-						<h2><?= $item->title()?></h2>
-						<?= $item->def()->kt()?>
-						<div class="glossary-link-page">21, 30, 45, 120</div>
+					<li class="list-index-element" data-list-index="<?= Str::slug($item->title())?>">
+						<h2 class="index-value"><?= $item->title()?></h2>
+						<div class="index-content">
+							<?= $item->def()->kt()?>
+						</div>
+						<div class="links-pages"></div>
 					</li>
 				<?php endforeach ?>
 				</ul>

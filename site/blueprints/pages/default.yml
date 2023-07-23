@@ -24,13 +24,27 @@ columns:
             label: Contenu
             type: blocks
             fieldsets:
-              - heading
-              - text
-              - list
-              - quote
-              - markdown
-              - gallery
-              - image
+              text: 
+                label: Texte 
+                type: group
+                fieldsets:
+                  - heading
+                  - text
+                  - list
+                  - markdown
+              quotes: 
+                label: Citations 
+                type: group
+                fieldsets:
+                  - quote
+                  - verbatim
+                  - sources
+              media: 
+                label: Media 
+                type: group
+                fieldsets:    
+                  - gallery
+                  - image
           sources:
             label: Sources
             type: list

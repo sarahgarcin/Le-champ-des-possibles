@@ -1,13 +1,16 @@
 # Job log
 
+- dessins en fin de chapitre 
+- http://clemenceseurat.com/CONTROVERSES_EN_ACTION/HABITABILITE%20EN%20TRAIN%20DE%20SE%20FAIRE/
+- https://www.youtube.com/watch?v=Ebt5eaLRG_w&pp=ygUdbGlua2NpdHkgbGEgdmFndWUgZ3JhbmQgcGFyaXM%3D
+
 ## TO DO
-- Faire fonctionner les icônes pour qu'ils soient associés à un chapitre
-- Design Table des matières 
-- Finir le chemin de fer (Annexes)
-- ok - Vérifier les lignes de bases 
-- Debug upload svg : https://forum.getkirby.com/t/cannot-upload-svg-to-files/14785 (voir chapitre 2)
-- Code pour faire un glossaire -> mot à chercher dans le texte, récupère la page et l'affiche
+- ok - Faire fonctionner les icônes pour qu'ils soient associés à un chapitre
+- ok - Code pour faire un glossaire -> mot à chercher dans le texte, récupère la page et l'affiche
+- Design sortie de livre 
 - Faire la version web
+- ok - Debug upload svg
+  + Il faut cleaner les svgs : https://jakearchibald.github.io/svgomg/
 
 ## Couverture 
 - Sur la couverture ajouter un plan en vert (chapitre 6), celui en haut à droite sous le titre
@@ -16,33 +19,15 @@
 - Erreur dans la console sur pagedjs
   + Uncaught TypeError: Cannot read property 'getAttribute' of null
 
-## Questions
-- Quelles sont les différents types de citation ?
-- Doit-il y avoir une interpage "Annexes" ? ou on démarre les Annexes direct ?
-
-## Questions déjà posées
-- Chapitre 2: Organisation des images par ordre + commentaires dans le doc = très pratique
-- Chapitre 2: Tableaux en svg et en noir et blanc (couleurs inversés ? blanc sur noir ?)
-- Chapitre 1, il y a des images (les graphes qui ne sont pas placés dans le texte…)
-- Manque légende des cartes en tête de chapitre
-- Par rapport au processus, là j'ai les textes de tests, mais il faudra tout réintégrer après… 
-- Chapitre 1: J'ai besoin des images sources pour le quadriptyque, pas seulement de la maquette… + légendes
-- Chapitre 1 : Il y a certaines images en pdf comme la carte il me faudrait des jpg…
-- Traitement des images -> photogravure ??
-- Pour l'instant une page = un chapitre est-il plus pertinent de faire
-  + Un chapitre
-    * Titre
-    * Icône
-    * Sommaire
-    * Introduction
-    * Sources toutes les sources
-    * Pages
-      - Partie 1
-        + contenu
-        + images
-      - Partie 2
-
 ## Done
+- ok - Design Table des matières 
+- ok - Finir le chemin de fer (Annexes)
+- ok - Vérifier les lignes de bases 
+- ok - Indentation au début des paragraphes ? (= mauvais copier/coller)
+- ok - Mettre en place un système graphique (et technique) pour 3 types de citation : 
+  + les verbatims / témoignages recueillis sur le terrain
+  + les sources primaires : documents administratifs
+  + les citations extraites d'articles, livres, etc. plus académiques
 - ok - Ajouter tous les icônes au début et à la fin du bouquin
 - ok - Finir de mettre le contenu de Friche
 - ok - Pouvoir ajouter une page blanche ou noir sans le livre
@@ -68,5 +53,32 @@
 - ok - Plusieurs types de citations => avoir des effets graphiques différents ?
 - ok - Designer les citations…
 
+## Questions
 
+
+## Questions déjà posées
+- Les dessins 
+- Les pages de fin 
+- Quelles sont les différents types de citation ?
+- Doit-il y avoir une interpage avec le titre "Annexes" ? ou on démarre les Annexes direct ?
+- Chapitre 2: Organisation des images par ordre + commentaires dans le doc = très pratique
+- Chapitre 2: Tableaux en svg et en noir et blanc (couleurs inversés ? blanc sur noir ?)
+- Chapitre 1, il y a des images (les graphes qui ne sont pas placés dans le texte…)
+- Manque légende des cartes en tête de chapitre
+- Par rapport au processus, là j'ai les textes de tests, mais il faudra tout réintégrer après… 
+- Chapitre 1: J'ai besoin des images sources pour le quadriptyque, pas seulement de la maquette… + légendes
+- Chapitre 1 : Il y a certaines images en pdf comme la carte il me faudrait des jpg…
+- Traitement des images -> photogravure ??
+- Pour l'instant une page = un chapitre est-il plus pertinent de faire
+  + Un chapitre
+    * Titre
+    * Icône
+    * Sommaire
+    * Introduction
+    * Sources toutes les sources
+    * Pages
+      - Partie 1
+        + contenu
+        + images
+      - Partie 2
 
