@@ -1,0 +1,30 @@
+Title: Reconfinement : le déplacement des classes ?
+
+----
+
+Ressources:
+
+- 
+  title: >
+    Suite au nouveau confinement, je
+    souhaiterai avoir des informations
+    concernant les ateliers scolaires et
+    périscolaires,et plus particulièrement
+    la question du déplacement des
+    classes/groupes (en bus ou à pied) dans
+    le contexte Covid-19 et Vigipirate ?
+  text: >
+    D’après les textes, les écoles
+    d’art ne peuvent pas dans le contexte
+    sanitaire et de sécurité recevoir de
+    scolaires ou de périscolaires.
+    Néanmoins, avec l’accord des
+    établissements scolaires, les
+    interventions d’artistes dans les
+    écoles, collèges, lycées peuvent
+    avoir lieu ou bien se poursuivre si
+    elles étaient engagées. Les
+    déplacements des scolaires semblent ne
+    pas être possible (sauf dérogation des
+    académies).
+  pdf: [ ]

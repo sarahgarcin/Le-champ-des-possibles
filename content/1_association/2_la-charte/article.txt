@@ -1,0 +1,21 @@
+Title: La charte
+
+----
+
+Subpart: 
+
+- 
+  title: Charte 2019
+  fichier:
+    - aneat-charte-2019.pdf
+  logoorange:
+    - illustration-62.svg
+  logogray:
+    - illustration-6.svg
+
+----
+
+Text: 
+
+La charte de l’ANÉAT est élaborée sur la base d’un travail de concertation et de dialogue, mené par les directions des écoles d’art de pratiques amateurs, réunies au sein de l’ANÉAT.
+Créée en 2015, l’Association Nationale des Écoles d’Art Territoriales de pratiques amateurs a pour vocation de donner au plan national un cadre aux échanges entre ces écoles, de participer à leur structuration et d’être l’interlocutrice des associations professionnelles, des collectivités, et de l’État...

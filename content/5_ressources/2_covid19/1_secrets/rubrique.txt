@@ -1,0 +1,50 @@
+Title: Décrets
+
+----
+
+Ressources:
+
+- 
+  title: Décret no 2021-31 / 15 janvier 2021
+  text: |
+    Décret modifiant les décrets des 16 et 29 octobre 2020 prescrivant les mesures générales nécessaires pour faire face à l’épidémie de covid-19 dans le cadre de l’état d’urgence sanitaire
+    
+    Retrouvez ici le décret décrivant, à l'article 35, les mesures relatives aux établissements d’enseignement artistiques en arts plastiques notamment :
+    "Ces établissements et ceux de l’enseignement artistique relevant du spectacle vivant et des arts plastiques sont autorisés à accueillir des élèves mineurs dans les autres cycles et cursus, sauf pour l’art lyrique ;".
+  pdf:
+    - decret-2021-31-150121.pdf
+- 
+  title: Décret no 2020-1582 / 14 décembre 2020
+  text: |
+    Décret modifiant les décrets no 2020-1262 du 16 octobre 2020 et no 2020-1310 du 29 octobre 2020 prescrivant les mesures générales nécessaires pour faire face à l’épidémie de covid-19 dans le cadre de l’état d’urgence sanitaire
+    
+    Retrouvez ici le décret décrivant, à l'article 35, les mesures relatives aux établissements d’enseignement artistiques en arts plastiques notamment :
+    Ces établissements et ceux de l’enseignement artistique relevant du spectacle vivant et des arts plastiques sont autorisés à accueillir des élèves mineurs dans les autres cycles et cursus, sauf pour l’art lyrique.
+  pdf:
+    - decret-2020-14.12.pdf
+- 
+  title: Décret no 2020-1310 / 29 octobre 2020
+  text: |
+    Décret prescrivant les mesures générales nécessaires pour faire face à l’épidémie de covid-19 dans le cadre de l’état d’urgence sanitaire
+    
+    Retrouvez ici le décret décrivant, à l'article 35, les mesures relatives aux établissements d’enseignement.
+  pdf:
+    - decret-2020-29-10.pdf
+- 
+  title: Décret no 2020-663 / 31 mai 2020
+  text: |
+    Décret prescrivant les mesures générales nécessaires pour faire face à l’épidémie de covid-19 dans le cadre de l’état d’urgence sanitaire
+    
+    Retrouvez ici le décret qui décrit, à l'article 45, les mesures relatives aux établissements d’enseignement artistique spécialisé.
+  pdf:
+    - decret-2021-31-150121.pdf
+- 
+  title: Décret no 2020-548 / 11 mai 2020
+  text: |
+    Décret prescrivant les mesures générales nécessaires pour faire face à l’épidémie de covid-19 dans le cadre de l’état d’urgence sanitaire.
+    
+    Retrouvez ici ce décret qui stipule concernant les établissements d’enseignement artistique (type R) que ceux-ci doivent rester par principe fermés au public (sauf en cas d’accueil périscolaire (article 8 exception alinéa 2).
+    Ce décret est valable jusqu’au 2 juin (fin de la première période de déconfinement).
+  pdf:
+    - >
+      decret-n0-2020-545-du-11-mai-2020-prescrivant-les-mesures-generales-necessaires-pour-faire-face-a-l-epidemie-de-covid-19-dans-le-cadre-de-l-etat-d-urgence-sanitaire-legifrance.pdf

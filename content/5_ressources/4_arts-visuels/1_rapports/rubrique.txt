@@ -1,0 +1,44 @@
+Title: Rapports
+
+----
+
+Ressources:
+
+- 
+  title: >
+    Rapport Racine sur « L’auteur et
+    l’acte de création » / 2020
+  text: >
+    Franck Riester, ministre de la Culture,
+    avait confié en avril 2019 à Bruno
+    Racine, conseiller maître à la Cour
+    des comptes, une mission prospective sur
+    l’état des mutations que les
+    activités de création ont pu
+    connaître ces trente dernières
+    années. Cette réflexion globale devra
+    permettre d’adapter les politiques
+    publiques existantes en faveur des
+    artistes, auteurs et créateurs. Son
+    rapport sur le statut des
+    artistes-auteurs, « L’auteur et
+    l’acte de création », a été remis
+    au ministre mercredi 22 janvier 2020.
+  pdf:
+    - rapport_-racine.pdf
+- 
+  title: >
+    Rapport sur la situation sociale et
+    économique des arts visuels / 2016
+  text: >
+    Ce présent rapport, réalisé en 2016
+    par le Gouvernement à destination du
+    Parlement, aborde successivement les
+    professions des arts visuels dans leur
+    diversité, les économies dans
+    lesquelles ces professions sont
+    exercées et enfin leur situation au
+    regard de la protection sociale et de la
+    formation professionnelle continue.
+  pdf:
+    - 1-rapport-arts-visuels.pdf

@@ -1,0 +1,61 @@
+Title: Facture 1
+
+----
+
+Numero: D4567
+
+----
+
+Emetteur:
+
+Ecole de  Marne
+38 Rue du saint père
+
+----
+
+Destinataire:
+
+Mairie d’Evry
+16 Rue d’Alençon 
+90 887 Evry
+
+----
+
+Bonnumero: 45670
+
+----
+
+Codeservice: Service Communication
+
+----
+
+Siret: 123 456 289 990
+
+----
+
+Objet: Mise à Disposition de Locaux
+
+----
+
+Text: Suite à notre entretien téléphonique de ce jour, je vous fais part de mon intention de résilier mon contrat de location de l’appartement situé au  22 rue du moulin des Prés que j’occupe depuis le 04.12.2002, résiliation sera effective en date du 8.03.2010 respectant ainsi le délai de préavis de trois mois auquel je suis tenu(e). Dans l’attente de votre réponse, je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées. Suite à notre entretien téléphonique de ce jour, je vous fais part de mon intention de résilier mon contrat. Monsieur, l’expression de mes salutations distinguées.
+
+----
+
+Nomprestations: Prix
+
+----
+
+Prestations:
+
+- 
+  prestation: Entretien téléphonique
+  prixht: 34
+  prixttc: 35.1
+- 
+  prestation: Salutations
+  prixht: 34
+  prixttc: 35.1
+- 
+  prestation: Attente de votre réponse
+  prixht: 34
+  prixttc: 35.1

@@ -1,0 +1,81 @@
+Title: École d’art(s) de Fresnes
+
+----
+
+Shortname: Fresnes
+
+----
+
+Membre: [ membre actif ]
+
+----
+
+Positionleft: 75
+
+----
+
+Positiontop: 25
+
+----
+
+Positionlefttab: 77.5
+
+----
+
+Positiontoptab: 26.5
+
+----
+
+Positionleftmobile: 75
+
+----
+
+Positiontopmobile: 27
+
+----
+
+Gaucheoudroite: gauche
+
+----
+
+Cover: 
+
+- aneat-ecole-fresnes.jpg
+
+----
+
+Adresse: 
+
+7 rue Louise Bourgeois
+94260 Fresnes
+T. 01 78 68 28 31
+(email: ecoledarts@fresnes94.fr text: ecoledarts@fresnes94.fr)
+(link: http://ecoledarts.fresnes94.fr text: ecoledarts.fresnes94.fr)
+
+----
+
+Social: 
+
+----
+
+Eleves: 300
+
+----
+
+Direction: Ulrika Byttner
+
+----
+
+Pdf: 
+
+----
+
+Text: 
+
+**Présentation de l’école :**
+Créé en 1972, l’école d’art(s) de Fresnes est un équipement municipal situé en banlieue parisienne. C’est un lieu d’éducation artistique ouvert à tous, quel que soit l’âge, le niveau scolaire ou d’étude. Accessible dès 4 ans chacun peut trouver une offre à sa mesure selon ses désirs et ses possibilités. L’école ne propose ni cursus, ni diplôme : il s’agit de cours de loisirs. Par son action, elle soutient et oriente les jeunes souhaitant accéder à l’enseignement supérieur d’art. L’école met en œuvre des projets d’éducation artistique, organise des rencontres avec les artistes par le biais de résidences de création. Elle favorise l’accès à la culture artistique et à la connaissance de l’histoire de l’art, par l’organisation de rencontres avec des acteurs du milieu artistique et de conférences.
+
+**Offre pédagogique :**
+Un trentaine d’ateliers hebdomadaires accessibles à tous les publics proposent des formations artistiques dans la plupart des domaines des arts plastiques : dessin, gravure, aquarelle, peinture, couleur, sculpture, céramique mais également en création textile et théâtre. 
+Déployée sur 1000m2 et deux niveaux, 9 salles équipées accueillent les publics. L’école d’art(s) dispose notamment d’une salle spécialement équipée pour la céramique et la sculpture, une salle dédiée pour la pratique de l’estampe ainsi qu’un espace sonorisé et équipé d’éclairage vouée aux arts de la scène. Un espace de documentation permet aux élèves de consulter une grande variété d’ouvrages sur l’art. 
+Des modules courts, des stages, des conférences et des ateliers pour les familles complètent l’offre d’enseignement artistique.

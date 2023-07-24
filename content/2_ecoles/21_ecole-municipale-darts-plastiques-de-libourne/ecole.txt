@@ -1,0 +1,89 @@
+Title: École municipale d’arts plastiques de Libourne
+
+----
+
+Shortname: Libourne
+
+----
+
+Membre: [ membre actif ]
+
+----
+
+Positionleft: 18
+
+----
+
+Positiontop: 41
+
+----
+
+Positionlefttab: 23.5
+
+----
+
+Positiontoptab: 42
+
+----
+
+Positionleftmobile: 25
+
+----
+
+Positiontopmobile: 41
+
+----
+
+Gaucheoudroite: gauche
+
+----
+
+Cover: 
+
+- 190605-entree-eap2.jpg
+
+----
+
+Adresse: 
+
+37 rue Waldeck Rousseau
+33500Libourne
+T. 05 57 25 02 58
+(email: cchatenoud@mairie-libourne.fr text: cchatenoud@mairie-libourne.fr)
+(link: https://www.libourne.fr/accueil text: www.libourne.fr)
+
+----
+
+Social: 
+
+----
+
+Eleves: 200
+
+----
+
+Direction: Catherine Chatenoud
+
+----
+
+Pdf: 
+
+----
+
+Text: 
+
+**Présentation de l’école :**
+L’école municipale d’arts plastiques de Libourne propose une sensibilisation et une formation aux arts plastiques à  tout public, à travers le plaisir de l’expérimentation, la découverte de techniques variées, l’éducation du regard et la connaissance d’œuvres de référence. 
+À partir d’un programme pédagogique évolutif, les élèves pourront acquérir un solide bagage technique et culturel ainsi qu’un savoir-faire permettant une grande liberté de création, le tout dans une ambiance conviviale.
+L’école se situe en centre-ville et accueille 200 élèves inscrits régulièrement, enfants (à partir de 7 ans) et adultes.
+Elle organise des expositions, des animations culturelles en lien avec d'autres services, des accueils de classes, etc. participant ainsi à la vie culturelle Libournaise.
+Les tarifs sont calculés en fonction du quotient familial pour les habitants de Libourne. 
+
+**Offre pédagogique :**
+Apprendre à regarder, expérimenter, développer sa sensibilité et son imaginaire, avancer dans une démarche de création sont les leitmotivs de l’école municipale d’arts plastiques. 
+Des séances d’arts plastiques de 2h hebdomadaires en petits groupes homogènes sont proposées et encadrées par l’un des 4 enseignants de l’école. Des cours spécifiques sont également dispensés selon le projet pédagogique de l’année : sculpture, graphisme, huile, supports et matières, infographie, dessin d’observation, modèle vivant, techniques anciennes, etc.
+Une exposition des travaux des élèves dans les galeries de la Médiathèque municipale vient clôturer l’année (de début juin à fin août). 
+Des sorties culturelles, visites d’expositions, sorties « croquis », interventions dans la ville et accueil d’artistes viennent compléter cet enseignement.
+Une bibliothèque de prêt est aussi à la disposition des élèves.
+Tout au long de l’année, l’école accueille des classes primaires dans le cadre de parcours artistiques en partenariat avec le musée, les archives ou la médiathèque de la ville. 
+Enfin, en lien avec le service Éducation de la ville, l’école propose des ateliers découverte des arts plastiques dans le cadre d’un dispositif « club découverte » le mercredi matin.

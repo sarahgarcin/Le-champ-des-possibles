@@ -1,0 +1,39 @@
+Title: Crédits
+
+----
+
+Subpart: 
+
+----
+
+Text: 
+
+© ANÉAT, 2019
+
+Site optimisé pour Safari et Firefox.
+
+Responsables de la publication
+Ulrika Byttner, coprésidente
+Hedi Saïdi, coprésident
+
+Coordination de la publication
+Marie-Charlotte Gain-Hautbois, agence amac
+(link: http://amac-web.com text: www.amac-web.com)
+
+Conception et création graphique
+Atelier Müesli - Léa Chapon, Mytil Ducomet
+(link: http://www.ateliermuesli.com text: www.ateliermuesli.com)
+
+Développement du site
+Sarah Garcin
+(link: http://www.sarahgarcin.com text: www.sarahgarcin.com)
+
+Hébergement
+Online.net
+
+Typographie
+Cardone par Fátima Lázaro
+(link: http://fatimalazaro.com/ text: www.fatimalazaro.com)
+
+CMS
+Kirby

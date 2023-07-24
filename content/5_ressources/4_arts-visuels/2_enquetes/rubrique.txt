@@ -1,0 +1,14 @@
+Title: Enquêtes
+
+----
+
+Ressources:
+
+- 
+  title: >
+    Enquête du CIPAC sur les répercusions
+    du COVID-19 sur le secteurs des arts
+    visuels
+  text: "Mené du 18 mars au 15 avril 2020, par le CIPAC - Fédération des professionnels de l'art contemporain, ce premier diagnostic permet de faire ressortir la fragilité accrue d'un secteur dans son entier et de ses professionnels, au premier rang desquels les artistes-auteurs et les autres indépendants sont les plus directement touchés."
+  pdf:
+    - conclusion-enquete-cipac-2020.04.23.pdf

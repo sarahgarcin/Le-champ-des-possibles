@@ -1,0 +1,65 @@
+Title: Fontenay-sous-Bois
+
+----
+
+Shortname: Fontenay-sous-Bois
+
+----
+
+Membre: [ membre actif ]
+
+----
+
+Positionleft: 83
+
+----
+
+Positiontop: 18
+
+----
+
+Positionlefttab: 83
+
+----
+
+Positiontoptab: 20
+
+----
+
+Positionleftmobile: 80
+
+----
+
+Positiontopmobile: 20
+
+----
+
+Gaucheoudroite: droite
+
+----
+
+Cover: 
+
+----
+
+Adresse: 
+
+----
+
+Social: 
+
+----
+
+Eleves: 
+
+----
+
+Direction: 
+
+----
+
+Pdf: 
+
+----
+
+Text: 

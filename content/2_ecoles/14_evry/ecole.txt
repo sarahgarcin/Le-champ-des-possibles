@@ -1,0 +1,82 @@
+Title: Service arts Visuels Grand Paris Sud
+
+----
+
+Shortname: Évry-Courcouronnes
+
+----
+
+Membre: [ membre actif ]
+
+----
+
+Positionleft: 85
+
+----
+
+Positiontop: 29
+
+----
+
+Positionlefttab: 83
+
+----
+
+Positiontoptab: 30
+
+----
+
+Positionleftmobile: 79
+
+----
+
+Positiontopmobile: 30.5
+
+----
+
+Gaucheoudroite: droite
+
+----
+
+Cover: 
+
+- aneat-ecole-evry.jpg
+
+----
+
+Adresse: 
+
+6 avenue de Ratisbonne
+91000 Évry-Courcouronnes
+T. 01 60 78 76 81
+(email: aap@grandparissud.fr text: aap@grandparissud.fr)
+(link: https://sortir.grandparissud.fr/equipements/service-arts-visuels text: www.artsvisuels.grandparissud.fr)
+
+----
+
+Social: 
+
+----
+
+Eleves: 700
+
+----
+
+Direction: Sandrine Rouillard
+
+----
+
+Pdf: 
+
+----
+
+Text: 
+
+**Présentation de l’école :**
+Ouvert à tous, enfants, jeunes et adultes, le service Arts Visuels de l’agglomération Grand Paris Sud, est un lieu dédié à l’éveil, à la sensibilisation ou au perfectionnement dans les domaines des arts visuels. Le service se déploie sur trois axes : les ateliers d’arts plastiques et la pratique amateur, l’action culturelle et artistique dans et hors les murs, et la classe préparatoire aux écoles supérieures d’art. Le rayonnement de ses actions s’étend sur le territoire des 23 villes de l’agglomération. 
+Les propositions sont tout autant dédiées aux débutants qu’aux pratiquants confirmés. Les élèves et étudiants ont la possibilité d’accéder à de nombreuses techniques mais également à des connaissances, expériences et découvertes grâce à une riche programmation artistique et culturelle.
+
+**Offre pédagogique :**
+Le service Arts Visuels propose pour les élèves amateurs 76 plages de cours par semaine. Les cours sont dispensés par une équipe de 15 enseignants. Tous les âges sont représentés. De nombreux ateliers sont dédiés aux enfants et aux jeunes. Différentes techniques sont abordées telles que le dessin, la peinture, la sculpture, mais aussi l’animation 3D, Photoshop ou encore la gravure. 
+L’action culturelle développe des résidences d’artistes, des conférences, des expositions et événements qui assurent une présence des arts visuels vivants au sein des pratiques.
+La classe préparatoire fait partie de l’Association nationale des classes Prépa Publiques aux Écoles supérieures d’Art. Elle accueille 20 étudiants chaque année et les accompagne avec une formation exigeante et valorisante dispensée par des artistes-enseignants intégrés dans les réseaux de la création contemporaine.

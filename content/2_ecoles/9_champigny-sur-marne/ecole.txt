@@ -1,0 +1,65 @@
+Title: Champigny-sur-Marne
+
+----
+
+Shortname: Champigny-sur-Marne
+
+----
+
+Membre: 
+
+----
+
+Positionleft: 84.5
+
+----
+
+Positiontop: 22
+
+----
+
+Positionlefttab: 84
+
+----
+
+Positiontoptab: 23
+
+----
+
+Positionleftmobile: 81.5
+
+----
+
+Positiontopmobile: 23
+
+----
+
+Gaucheoudroite: droite
+
+----
+
+Cover: 
+
+----
+
+Adresse: 
+
+----
+
+Social: 
+
+----
+
+Eleves: 
+
+----
+
+Direction: 
+
+----
+
+Pdf: 
+
+----
+
+Text: 

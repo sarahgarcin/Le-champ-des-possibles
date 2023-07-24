@@ -1,16 +1,18 @@
 # Job log
-
 - dessins en fin de chapitre 
 - http://clemenceseurat.com/CONTROVERSES_EN_ACTION/HABITABILITE%20EN%20TRAIN%20DE%20SE%20FAIRE/
 - https://www.youtube.com/watch?v=Ebt5eaLRG_w&pp=ygUdbGlua2NpdHkgbGEgdmFndWUgZ3JhbmQgcGFyaXM%3D
 
+## Bug intégration 
+- Citation -> note à la fin. Pour l'instant elles sont intégrées comme des textes en italique (avec le type de citation dans la note)
+- Problème avec les exposants (<sup></sup> ne fonctionne pas)
+- Penser à renommer no en n° (problème de copier coller)
+
 ## TO DO
-- ok - Faire fonctionner les icônes pour qu'ils soient associés à un chapitre
-- ok - Code pour faire un glossaire -> mot à chercher dans le texte, récupère la page et l'affiche
+- Mettre les images des cartographes
+- Code pour faire un glossaire -> mot à chercher dans le texte, récupère la page et l'affiche --> ne fonctionne pas…
 - Design sortie de livre 
 - Faire la version web
-- ok - Debug upload svg
-  + Il faut cleaner les svgs : https://jakearchibald.github.io/svgomg/
 
 ## Couverture 
 - Sur la couverture ajouter un plan en vert (chapitre 6), celui en haut à droite sous le titre
@@ -20,6 +22,9 @@
   + Uncaught TypeError: Cannot read property 'getAttribute' of null
 
 ## Done
+- ok - Debug upload svg
+  + Il faut cleaner les svgs : https://jakearchibald.github.io/svgomg/
+- ok - Faire fonctionner les icônes pour qu'ils soient associés à un chapitre
 - ok - Design Table des matières 
 - ok - Finir le chemin de fer (Annexes)
 - ok - Vérifier les lignes de bases 

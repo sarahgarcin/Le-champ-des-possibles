@@ -1,0 +1,65 @@
+Title: Carcassonne
+
+----
+
+Shortname: Carcassonne
+
+----
+
+Membre: [ membre actif ]
+
+----
+
+Positionleft: 31
+
+----
+
+Positiontop: 57
+
+----
+
+Positionlefttab: 38
+
+----
+
+Positiontoptab: 59
+
+----
+
+Positionleftmobile: 37
+
+----
+
+Positiontopmobile: 56.5
+
+----
+
+Gaucheoudroite: gauche
+
+----
+
+Cover: 
+
+----
+
+Adresse: 
+
+----
+
+Social: 
+
+----
+
+Eleves: 
+
+----
+
+Direction: 
+
+----
+
+Pdf: 
+
+----
+
+Text: 

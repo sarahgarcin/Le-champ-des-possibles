@@ -1,0 +1,80 @@
+Title: École d’art de Riom
+
+----
+
+Shortname: Riom
+
+----
+
+Membre: [ membre actif ]
+
+----
+
+Positionleft: 40
+
+----
+
+Positiontop: 34
+
+----
+
+Positionlefttab: 43
+
+----
+
+Positiontoptab: 36
+
+----
+
+Positionleftmobile: 42
+
+----
+
+Positiontopmobile: 36
+
+----
+
+Gaucheoudroite: gauche
+
+----
+
+Cover: 
+
+- aneat-ecole-riom.jpg
+
+----
+
+Adresse: 
+
+2 Faubourg de la Bade
+63200 Riom 
+T. 04 73 64 83 03
+(email: ecole.arts.plastiques@ville-riom.fr text: ecole.arts.plastiques@ville-riom.fr)
+(link: https://www.ville-riom.fr/ text: www.ville-riom.fr)
+
+----
+
+Social: 
+
+----
+
+Eleves: 410
+
+----
+
+Direction: Alexandre Roccuzzo
+
+----
+
+Pdf: 
+
+----
+
+Text: 
+
+**Présentation de l’école :**
+L’école d’art de Riom a pour objectif l’enseignement au plus grand nombre des différentes pratiques et théories artistiques. Seul établissement de ce type dans le département du Puy-de-Dôme, débutants, amateurs, futurs spécialistes et professionnels s’y rencontrent et échangent dans un esprit d’ouverture et de curiosité. Les cours, ateliers et autres évènements qui y sont organisés tout au long de l’année, visent à fournir aux élèves des bases de connaissances solides leur permettant de prolonger et d’affiner une pratique artistique individuelle en dehors de l’école. Le projet d’établissement est axé sur la pluridisciplinarité, liant art contemporain et patrimoine, plaisir et exigence, cultures savantes et populaires.
+
+**Offre pédagogique :**
+Avec plus de 400 élèves chaque année, 23 cours et ateliers proposés chaque semaine et une équipe d’une dizaine d’artistes-enseignants impliqués dans la création actuelle, l’école d’art de Riom est un véritable laboratoire de culture artistique et visuelle sur le territoire. 
+Du lundi au samedi, de 9h à 23h, des enfants (à partir de 6 ans), des ados et des adultes suivent des cours et ateliers de dessin, peinture, estampe, volume, céramique, théorie, techniques mixtes… Durant les vacances scolaires, des stages et workshops sont proposés à tous les élèves.

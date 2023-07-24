@@ -1,0 +1,24 @@
+Title: Protocole de reprise
+
+----
+
+Ressources:
+
+- 
+  title: "Bonjour, pour la mise en place de notre rentrée et nous aider pour l'accueil de nos élèves, auriez-vous des exemples de protocoles sanitaires sur lesquels nous pourrions nous appuyer ?"
+  text: |
+    Oui, tout à fait. Voici ci-dessous une synthèse ainsi que trois exemples de protocoles mis en place par des écoles membres du réseau.
+    - (link: https://www.aneat.fr/media/pages/ressources/4216109378-1602851420/synthese-protocole-aneat.pdf text: Synthèse de protocolaire sanitaire)
+    Quelques exemples de protocoles sanitaires :
+    - (link: https://www.aneat.fr/media/pages/ressources/1292532833-1602851428/protocole_sanitaire_rentree_2020-ebag.pdf text: Annemasse) ;
+    - (link: https://www.aneat.fr/media/pages/ressources/2662611709-1602851428/protocole_sanitaire_rentree_2020-service-artsvisuels-evry.pdf text: Évry-Courcouronnes) ;
+    - (link: https://www.aneat.fr/media/pages/ressources/1031682928-1602851428/protocole_sanitaire_rentree_2020-eamriom.pdf text: Riom).
+  pdf: [ ]
+
+----
+
+Subpart: 
+
+----
+
+Text: 

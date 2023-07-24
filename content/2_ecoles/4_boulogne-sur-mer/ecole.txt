@@ -1,0 +1,65 @@
+Title: Boulogne-sur-Mer
+
+----
+
+Shortname: Boulogne-sur-Mer
+
+----
+
+Membre: [ membre actif ]
+
+----
+
+Positionleft: 35
+
+----
+
+Positiontop: 3
+
+----
+
+Positionlefttab: 35
+
+----
+
+Positiontoptab: 3
+
+----
+
+Positionleftmobile: 35
+
+----
+
+Positiontopmobile: 5
+
+----
+
+Gaucheoudroite: droite
+
+----
+
+Cover: 
+
+----
+
+Adresse: 
+
+----
+
+Social: 
+
+----
+
+Eleves: 
+
+----
+
+Direction: 
+
+----
+
+Pdf: 
+
+----
+
+Text: 

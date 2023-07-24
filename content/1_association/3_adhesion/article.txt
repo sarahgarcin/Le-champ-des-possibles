@@ -1,0 +1,35 @@
+Title: Adhésion
+
+----
+
+Subpart: 
+
+- 
+  title: "Fiche d'adhésion"
+  fichier:
+    - bulletin-adhesion-aneat-2019.pdf
+  logoorange:
+    - illustration-32.svg
+  logogray:
+    - illustration-3.svg
+  text: ""
+- 
+  title: Modèle type de délibération
+  fichier:
+    - modele-deliberation-adhesion-aneat.pdf
+  logoorange:
+    - illustration-22.svg
+  logogray:
+    - illustration-2.svg
+  text: ""
+
+----
+
+Text: 
+
+L’adhésion à l’association est une opportunité pour intégrer une communauté de travail et ainsi, participer aux différentes réunions proposées dont l’assemblée générale annuelle, s’impliquer dans des groupes de travail constitués par les chantiers, valoriser son appartenance à une communauté professionnelle en mentionnant l’adhésion à l’ANÉAT sur ses supports de communication. 
+Les membres de l’ANÉAT sont des collectivités territoriales, EPCC, EPCI, etc. En tant que directrice ou directeur ou responsable d’une école d’arts plastiques de pratiques amateurs, vous deviendrez représentant/e de votre collectivité ou EPCC, EPCI, qui sera membre à proprement parler. Vous devez donc obtenir une délibération notifiant la décision d’adhérer et vous nommant comme représentant/e. 
+
+Vous pouvez être membre actif ou membre associé.
+
+Pour tout renseignements sur l'adhésion à l'association, n'hésitez à nous contacter à (email: adhesion@aneat.fr text: adhesion@aneat.fr).

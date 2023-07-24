@@ -418,7 +418,7 @@ class glossary extends Paged.Handler {
   }  
 }
 
-Paged.registerHandlers(glossary);
+// Paged.registerHandlers(glossary);
 
 
 

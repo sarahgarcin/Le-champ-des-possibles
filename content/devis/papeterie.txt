@@ -1,0 +1,24 @@
+Title: Devis
+
+----
+
+Logo: 
+
+- logo.svg
+
+----
+
+Logopetit: 
+
+- logo-aneat.svg
+
+----
+
+Entetehaut: Devis
+
+----
+
+Entetebas: 
+
+Écoles municipales artistiques 
+71 rue Camille Groult — 94 400 Vitry-sur-Seine 

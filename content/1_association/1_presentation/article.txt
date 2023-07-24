@@ -1,0 +1,62 @@
+Title: Présentation
+
+----
+
+Subpart: 
+
+- 
+  title: Statuts
+  fichier:
+    - statuts-aneat-23.11.2018.pdf
+  logoorange:
+    - illustration-62.svg
+  logogray:
+    - illustration-6.svg
+  text: ""
+- 
+  title: Réglement intérieur
+  fichier:
+    - reglement-interieur-aneat-23.11.2018.pdf
+  logoorange:
+    - illustration-32.svg
+  logogray:
+    - illustration-3.svg
+  text: |
+    L’Association Nationale des Écoles d’Art Territoriales de pratiques amateurs, l’ANÉAT, a été fondée en mars 2015 dans l’objectif de donner, au plan national, un cadre aux échanges entre les écoles d’art territoriales de pratiques amateurs en arts plastiques et visuels, de participer à la structuration de ces écoles très variées et nombreuses sur le territoire français et de devenir l’interlocutrice à part entière et clairement identifiée des associations professionnelles, des collectivités, des ministères, etc.
+    
+    Les membres de cette association sont les collectivités territoriales, EPCC, EPCI, EPT, etc. qui délèguent leur représentation aux directrices et directeurs ou responsables de leurs écoles. Cette caractéristique témoigne notamment de la détermination qu’ont les collectivités à porter des écoles de pratiques amateurs de qualité et de plain-pied avec les problématiques plus larges que celles de leurs seuls territoires, problématiques relevant des enseignements artistiques envisagés dans leur globalité.
+    
+    Le conseil d’administration de l’ANÉAT se compose de co-présidences instaurant de fait un régime de collégialité. Chaque co-président/e, représentant en outre une région de France, coordonne un groupe de travail dit « chantier ». Animé par une équipe dédiée, chaque chantier développe réflexion et action sur une question spécifique et communique régulièrement sur l’avancée de ses travaux. Un chantier peut comporter plusieurs ateliers traitant de segments plus précis de son domaine. La liste des chantiers et des ateliers peut s’élargir et se reconfigurer à tout moment, en fonction de l’identification de nouvelles questions.
+    
+    Parmi les chantiers engagés : un observatoire des écoles (recensement exhaustif, partage d’expériences, etc.), l’élaboration d’une charte qualitative, la formation des enseignants et la question de leurs statuts, la place de ces enseignements dans les parcours de vie et les études artistiques, etc.
+- 
+  title: CA
+  fichier:
+    - ca-2019.pdf
+  logoorange:
+    - illustration-52.svg
+  logogray:
+    - illustration-5.svg
+  text: ""
+- 
+  title: Flyer
+  fichier:
+    - flyer-aneat-2019.pdf
+  logoorange:
+    - illustration-22.svg
+  logogray:
+    - illustration-2.svg
+  text: ""
+
+----
+
+Text: 
+
+L’Association Nationale des Écoles d’Art Territoriales de pratiques amateurs, l’ANÉAT, a été fondée en mars 2015 dans l’objectif de donner, au plan national, un cadre aux échanges entre les écoles d’art territoriales de pratiques amateurs en arts plastiques et visuels, de participer à la structuration de ces écoles très variées et nombreuses sur le territoire français et de devenir l'interlocutrice à part entière et clairement identifiée des associations professionnelles, des collectivités, des ministères, etc.
+
+Les membres de cette association sont les collectivités territoriales, EPCC, EPCI, EPT, etc. qui délèguent leur représentation aux directrices et directeurs ou responsables de leurs écoles.
+Cette caractéristique témoigne notamment de la détermination qu’ont les collectivités à porter des écoles de pratiques amateurs de qualité et de plain-pied avec les problématiques plus larges que celles de leurs seuls territoires, problématiques relevant des enseignements artistiques envisagés dans leur globalité.
+
+Le conseil d’administration de l’ANÉAT se compose de co-présidences instaurant de fait un régime de collégialité. Chaque co-président/e, représentant en outre une région de France, coordonne un groupe de travail dit « chantier ». Animé par une équipe dédiée, chaque chantier développe réflexion et action sur une question spécifique et communique régulièrement sur l’avancée de ses travaux. Un chantier  peut comporter plusieurs ateliers traitant de segments plus précis de son domaine. La liste des chantiers et des ateliers peut s’élargir et se reconfigurer à tout moment, en fonction de l’identification de nouvelles questions.
+
+Parmi les chantiers engagés : un (link: http://site.sarahgarcin.com/aneat/chantiers text: observatoire des écoles) (recensement exhaustif, partage d’expériences, etc.), (link: http://site.sarahgarcin.com/aneat/media/pages/association/la-charte/-1614471085-1569319133/aneat-charte-2019.pdf?%3E text: l’élaboration d’une charte qualitative), la formation des enseignants et la question de leurs statuts, la place de ces enseignements dans les parcours de vie et les études artistiques, etc.

@@ -1,0 +1,14 @@
+Title: Rapports
+
+----
+
+Ressources:
+
+- 
+  title: "Rapport sur la filière de l'enseignement artistique / septembre 2018"
+  text: |
+    Le conseil de la Fonction publique territoriale a formulé un vœu en 2017 pour la revalorisation de la filière enseignement artistique. Cette démarche s’inscrit dans un contexte de forte dégradation des conditions d’emploi et de déroulement de carrière des agents exerçant des missions d’enseignement artistique mais également de mutations de l’environnement territorial en terme de politique publique culturelle, de structuration institutionnelle et de dotations de l’État.
+    
+    Réalisé par Jésus de Carlos, ce rapport répond également aux demandes des organisations syndicales et des employeurs siégeant au Conseil supérieur et qui ont saisi le CSFPT à plusieurs reprises sur les difficultés existantes.
+  pdf:
+    - rapport-enseignement-artistique-4.pdf

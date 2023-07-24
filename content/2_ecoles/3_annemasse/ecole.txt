@@ -1,0 +1,79 @@
+Title: EBAG - École des beaux-arts du genevois
+
+----
+
+Shortname: Annemasse
+
+----
+
+Membre: [ membre actif ]
+
+----
+
+Positionleft: 56
+
+----
+
+Positiontop: 35
+
+----
+
+Positionlefttab: 56
+
+----
+
+Positiontoptab: 36
+
+----
+
+Positionleftmobile: 55
+
+----
+
+Positiontopmobile: 35
+
+----
+
+Gaucheoudroite: droite
+
+----
+
+Cover: 
+
+- aneat-ecole-annemasse.jpg
+
+----
+
+Adresse: 
+
+45 rue de la libération
+74240 Gaillard
+T. 04 50 37 21 89
+(email: ebag@annemasse-agglo.fr text: ebag@annemasse-agglo.fr)
+(link: https://ebag.annemasse-agglo.fr/ text: ebag.annemasse-agglo.fr)
+
+----
+
+Social: 
+
+----
+
+Eleves: 1036
+
+----
+
+Direction: Jean-Pierre Roda
+
+----
+
+Pdf: 
+
+----
+
+Text: 
+
+**Présentation de l’école**
+L’EBAG est un établissement d’enseignement artistique composé d’enseignants artistes possédant une solide formation et une pratique confirmée dans leur domaine. L'école propose un programme de cours annuels pour les pratiques amateurs enfants, jeunes et adultes, et des stages enfants et adultes durant les vacances scolaires. Elle offre également deux préparations, l'une destinée aux lycéens qui envisagent des études supérieures artistiques, l'autre pour les bacheliers qui souhaitent présenter les concours des écoles supérieures d'art ou d'architecture. Par la qualité de ses enseignements, de ses exigences pédagogiques et les liens qu’elle a su créer avec d’autres institutions culturelles, l’EBAG est devenue un acteur incontournable du paysage artistique et culturel du territoire. 
+
+**Offre pédagogique**
+Destinée à un public amateur allant des tout-petits aux adultes, l’EBAG s’est fixée pour objectif, une qualité d’enseignement qui donne à tous les intéressés les moyens de développer leur potentiel créatif, dans un esprit d’ouverture. La variété des cours et des ateliers permet à chacun, au fil des années, de se construire un parcours personnalisé, adapté à ses aptitudes et à son projet. En lien avec des professionnels de la petite enfance, l’EBAG a développé des expériences pédagogiques d’éveil pour les tout-petits. Dès 2003, ces recherches ont permis d’aboutir à une offre publique appelée BéBé Bozarts. Imaginer, découvrir, créer, c’est aussi ce que Bozarts vacances propose à tous les jeunes désirant s’initier aux arts plastiques pendant les vacances scolaires. Les thématiques proposées sont aussi variées que le dessin, la couture, les multimédias, la sculpture, le graff, etc.

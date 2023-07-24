@@ -1,0 +1,90 @@
+Title: Écoles municipales artistiques de Vitry-sur-Seine
+
+----
+
+Shortname: Vitry-sur-Seine
+
+----
+
+Membre: [ membre actif ]
+
+----
+
+Positionleft: 71
+
+----
+
+Positiontop: 23.5
+
+----
+
+Positionlefttab: 79
+
+----
+
+Positiontoptab: 25
+
+----
+
+Positionleftmobile: 76
+
+----
+
+Positiontopmobile: 25
+
+----
+
+Gaucheoudroite: gauche
+
+----
+
+Cover: 
+
+- aneat-ecole-vitry.jpg
+
+----
+
+Adresse: 
+
+71 rue Camille Groult
+94 400 Vitry-sur-Seine
+T. 01 55 53 14 90
+(email: accueil.ema@mairie-vitry94.fr text: accueil.ema@mairie-vitry94.fr)
+(link: http://ema.vitry94.fr/ text: www.ema.vitry94.fr)
+
+----
+
+Social: 
+
+- 
+  icone: fa-facebook-f
+  text: ""
+  url: https://www.facebook.com/lesemavitry/
+
+----
+
+Eleves: 200
+
+----
+
+Direction: Élisabeth Milon
+
+----
+
+Pdf: 
+
+----
+
+Text: 
+
+**Présentation de l’école :**
+L’école d’arts plastiques propose des cours tout public à l’adresse des enfants, des adolescents et des adultes.
+Les enseignements, résolument tournés vers les pratiques contemporaines, favorisent l’expérimentation et la transdisciplinarité. Ils visent à engager les  élèves dans une démarche de recherche artistique. 
+L’école, partageant avec le Conservatoire de musique et l’Académie de danse un même équipement, de nombreux projets étendent l’expérimentation plastique au sonore, à l’espace scénique, au corps en mouvement.
+Le partenariat étroit avec le musée Mac Val et la Galerie d’art contemporain, permet de faminiariser les élèves avec les scènes de la création contemporaine et de co-produire un cours d’histoire de l’art. L’école dispose d’une classe préparatoire aux écoles supérieures d’art.
+
+**Offre pédagogique :**
+Les enseignements proposés couvrent les champs des disciplines académiques et des pratiques contemporaines.
+Les enseignants étant artistes, ils orientent leurs élèves vers une approche contemporaine en phase avec les questionnements actuels.
+L’offre pédagogique en direction des adultes est principalement disciplinaire (dessin d’après modèle vivant, peinture, volume-installation). Celle en direction des enfants (à partir de 6 ans) est plus ouverte. Si les ateliers de dessin, dessin peinture, volume-espace-installation, volume-terre-céramique, image – photo-vidéo-numérique restent identifiés, de très nombreux projets sont partagés par plusieurs enseignants et de fait transdisciplinaires. Les adolescents y trouvent un atelier alimenté par des projets.
+Pour les plus jeunes (4-6 ans), des ateliers « d’éveil » (la Pépinière) mêlent arts plastiques, danse et musique.

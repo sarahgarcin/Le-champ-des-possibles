@@ -1,0 +1,81 @@
+Title: École Communautaire d’arts plastiques de Fougères
+
+----
+
+Shortname: Fougères
+
+----
+
+Membre: [ membre actif ]
+
+----
+
+Positionleft: 19
+
+----
+
+Positiontop: 21.5
+
+----
+
+Positionlefttab: 18
+
+----
+
+Positiontoptab: 21
+
+----
+
+Positionleftmobile: 20
+
+----
+
+Positiontopmobile: 23
+
+----
+
+Gaucheoudroite: droite
+
+----
+
+Cover: 
+
+- aneat-ecole-fougeres.jpg
+
+----
+
+Adresse: 
+
+Couvent des Urbanistes
+25 rue de la caserne 
+35300 Fougères
+T. 02 99 94 11 13
+(email: ecap@fougeres-agglo.bzh text: ecap@fougeres-agglo.bzh)
+(link: http://fougeres-agglo.bzh/content/l%C3%A9cole-dart-plastiques text: http://fougeres-agglo.bzh)
+
+----
+
+Social: 
+
+----
+
+Eleves: 268
+
+----
+
+Direction: Laurence Briand
+
+----
+
+Pdf: 
+
+----
+
+Text: 
+
+**Présentation de l’école :**
+L’école communautaire d’arts plastiques est installée au couvent des Urbanistes sur la ville de Fougères. Plus d’une douzaine d’ateliers s’y déroulent toute l’année. L’école anime aussi dix ateliers sur le territoire de Fougères agglomération  en majorité pour le jeune public, organise des stages pendant les vacances scolaires, mène des actions de découverte et de sensibilisation dans les écoles primaires, et ce, en lien avec l’Éducation nationale.
+L’école est étroitement reliée à la galerie d’art Albert Bourgeois qui propose trois expositions par an, accueille des résidences d’artistes et favorise la médiation pour tous les publics. 
+
+**Offre pédagogique :**
+L’école propose en direction des publics adultes et jeunes des cours de modelage, sculpture, aquarelle et représentation, dessin et perspective, dessin et illustration, techniques picturales, pratique et recherche, perfectionnement artistique et préparation aux formations artistiques. L’école offre également des cycles de conférences pour le public adultes et des récré-conférences pour le jeune public.

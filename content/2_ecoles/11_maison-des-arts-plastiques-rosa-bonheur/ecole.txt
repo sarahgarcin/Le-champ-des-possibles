@@ -1,0 +1,86 @@
+Title: Maison des arts plastiques Rosa Bonheur
+
+----
+
+Shortname: Chevilly-Larue
+
+----
+
+Membre: [ membre actif ]
+
+----
+
+Positionleft: 82
+
+----
+
+Positiontop: 25
+
+----
+
+Positionlefttab: 81
+
+----
+
+Positiontoptab: 26.5
+
+----
+
+Positionleftmobile: 79
+
+----
+
+Positiontopmobile: 27
+
+----
+
+Gaucheoudroite: droite
+
+----
+
+Cover: 
+
+- aneat-ecole-chevilly-la-rue.jpg
+
+----
+
+Adresse: 
+
+34 rue Henri Cretté
+94600 Chevilly-larue
+(email: artsplastiques@ville-chevilly-larue.fr text: artsplastiques@ville-chevilly-larue.fr)
+(link: http://www.ville-chevilly-larue.fr text: www.ville-chevilly-larue.fr)
+
+----
+
+Social: 
+
+- 
+  icone: ""
+  text: Facebook
+  url: >
+    https://www.facebook.com/Maisondesartsplastiquesrosabonheur/
+
+----
+
+Eleves: 192
+
+----
+
+Direction: Fabienne Leloup
+
+----
+
+Pdf: 
+
+----
+
+Text: 
+
+**Présentation de l’école :**
+La Maison des arts plastiques Rosa Bonheur est un lieu unique qui offre en un même espace une salle d’exposition et des ateliers pédagogiques. Sur plus de 190 m2, la salle d’exposition a été conçue pour s’adapter à de nombreuses pratiques artistiques.
+Dans le cadre de son programme de développement culturel, l’école s’implique durablement pour favoriser la création et la diffusion artistique contemporaine de toutes les formes d’expressions et mouvements artistiques dans le domaine des arts visuels. Elle accompagne les artistes par des aides à la production. Elle fait l’objet tout au long de l’année d’une programmation d’expositions diversifiée et originale, largement accompagnée d’actions de médiation artistique auprès des scolaires de la ville et de publics diversifiés. L’inauguration de la salle d’exposition Rosa Bonheur en 2003 a initié une politique de diffusion et d’action culturelle en faveur de l’art contemporain. Plusieurs expositions ont présenté des artistes émergeants ou confirmés. En accueillant ces artistes, la municipalité a exprimé sa volonté d’éveiller un large public à la création d’aujourd’hui dans toute sa diversité.
+
+**Offre pédagogique :**
+Tout au long de l’année, des ateliers à destination des enfants sont proposés autour du dessin, de la peinture, des arts plastiques, et des arts numériques. Pour les publics adolescents, des ateliers de bande-dessinée et de modelage sont également dispensés.
+Pour le public adulte, l’offre se compose de cours d’arts graphiques, de dessin, de peinture, de modèle vivant, de volume mais aussi de modelage.
