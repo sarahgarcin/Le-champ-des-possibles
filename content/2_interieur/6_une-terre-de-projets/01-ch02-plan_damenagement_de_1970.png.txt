@@ -1,0 +1,9 @@
+Caption: 
+
+----
+
+Uuid: ExsagZ25X1vbuMKI
+
+----
+
+Template: blocks/image

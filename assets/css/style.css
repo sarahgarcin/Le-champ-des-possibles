@@ -120,11 +120,11 @@ ul li{
 	list-style: none;
 }
 
-sup, sub {
+/*sup, sub {
   vertical-align: top;
   position: relative;
   top: -0.4em;
-}
+}*/
 
 /* custom pagenreak from kirbytag break*/
 .pagebreak{

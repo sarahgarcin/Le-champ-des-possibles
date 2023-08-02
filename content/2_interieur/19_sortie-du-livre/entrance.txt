@@ -1,0 +1,40 @@
+Title: Sortie du livre
+
+----
+
+Icones:
+
+- 
+  title: Un vide urbain
+  page: p.11
+  icone:
+    - file://B4iIwC535Oa7xFIG
+- 
+  title: Une terre de projets
+  page: p.0
+  icone:
+    - file://OvUXOY6217O3HAk8
+- 
+  title: Une zone à planifier
+  page: p.45
+  icone:
+    - file://Z2RzzWr1PwIwCWYR
+- 
+  title: Un champ de banlieue
+  page: p.91
+  icone:
+    - file://0zlMJMW4ojnCxB88
+- 
+  title: Une friche dans la métropole
+  page: p.113
+  icone:
+    - file://takjp3bTpXITa6mq
+- 
+  title: Un commun à habiter
+  page: p.0
+  icone:
+    - file://oq2Z2uYrzhlSYusZ
+
+----
+
+Uuid: LQeAhpzqaNbccaqk

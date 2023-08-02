@@ -1,22 +1,5 @@
-Title: Accueil
+Title: Home
 
 ----
 
-Text: Créée en 2015, l’ANÉAT – Association Nationale des Écoles d’Art Territoriales de pratiques amateurs donne, au plan national un cadre aux échanges entre les écoles. Elle est l’interlocutrice des associations professionnelles, des collectivités et de l’État. Elle regroupe collectivités territoriales et établissements publics qui délèguent leur représentation aux responsables de leurs écoles.
-
-----
-
-Actus: 
-
-- 
-  title: 'Assemblée Générale '
-  subtitle: mardi 3 décembre 2019
-  text: |
-    La prochaine assemblée générale de l’ANÉAT se tiendra le mardi 3 décembre 2019 à la Maison de la Vie Associative de Gardanne.
-    Il sera notamment question de la préparation de la prochaine Journée professionnelle.
-    **Cette assemblée est largement ouverte.**
-    Plus d'infos en cliquant (link: http://site.sarahgarcin.com/aneat/evenements text: ici)
-
-----
-
-Test: 
+Uuid: Mf5wxJjmL8t2f2KO
