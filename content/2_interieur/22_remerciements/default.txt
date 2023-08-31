@@ -1,0 +1,25 @@
+Title: Remerciements
+
+----
+
+Icone: 
+
+----
+
+Pics: 
+
+----
+
+Summary: 
+
+----
+
+Text: [{"content":{"spacing":null,"text":"<p>Cet ouvrage est d\u00e9di\u00e9 \u00e0 Bruno Latour, disparu le 9 octobre 2022. Il a inspir\u00e9 cette enqu\u00eate par ses \u00e9crits, son art de la composition et son infatigable curiosit\u00e9.<\/p><p>Nous remercions chaleureusement tou\u00b7tes les participant\u00b7es aux ateliers pour leur temps, leur expertise et leur enthousiasme : Miguel Arrechea, Viviane Arrechea, Jeanny Belizaire, Chlo\u00e9 Bonjean, Zahia Buch\u00e8re, Claude Chauvet, Gisela Chauvet, Aliz\u00e9e De Pin, A\u00efcha Derdar, Nil Dinc, Flavio Fernandes, Lamri Gu\u00e9nouche, Jean-Luc Jacquot, Souhila Kadri, Dusan Kazic, Stephan Lardic, Pierre Largeau, Chantal Latour, C\u00e9cile Mattoug, Dauren Omarov, Claudine Parisy, Nicole Pierret, H\u00e9l\u00e8ne Ramy, Francis Redon, Val\u00e9rie Suner, Carole Umulinga Karemera et Beno\u00eet Verjat. Tous les moments partag\u00e9s ensemble ont contribu\u00e9 \u00e0 nous transformer et \u00e0 rendre cette enqu\u00eate joyeuse, singuli\u00e8re et passionnante.<\/p><p>Nous remercions les personnes et les structures qui ont accueilli nos ateliers \u00e0 Sevran : Lamri Guenouche et les jardins d\u2019Aurore, Fatima Ternullo et l\u2019association Potentielles Cit\u00e9, Lucille Bertrand et la m\u00e9diath\u00e8que Elsa Triolet, la maison de quartier Edmond Michelet.<\/p><p>Nous remercions notre comit\u00e9 de lecture pour ses retours bienveillants, ses pr\u00e9cisions et ses enrichissements : Chlo\u00e9 Bonjean, Claude Chauvet, Gisela Chauvet, Jean-Luc Jacquot, Dauren Omarov, Claudine Parisy et H\u00e9l\u00e8ne Ramy. Ainsi que celles et ceux qui ont bien voulu nous relire pour leur temps et leurs pr\u00e9cieux retours : Pauline Briand, Pauline Gourlet, C\u00e9cile Mattoug, Donato Ricci et l'\u00e9quipe du s\u00e9minaire \u00ab La mati\u00e8re du politique \u00bb du Centre d'histoire de Sciences Po.<\/p><p>Nous remercions la merveilleuse \u00e9quipe de la Poudrerie pour son accompagnement, ses conseils et ses mises en lien : Val\u00e9rie Suner, Chlo\u00e9 Bonjean, Claire Meneses-Baldensperger, Violaine Darrenti\u00e8res, Charline Fortin et Pierre-Louis Boucher. Le projet n\u2019aurait pu voir le jour sans leur travail de fond et de terrain.\u00a0<\/p><p>Nous remercions aussi :<\/p><p>Le maire St\u00e9phane Blanchet, Niklas Moulin et archives municipales de la ville de Sevran.<\/p><p>Marion Brun pour son temps, les rep\u00e9rages et la lecture \u00e9cologique de la plaine Montceleux.<\/p><p>Nicolas Cornet pour sa disponibilit\u00e9 et son expertise \u00e9cologique.<\/p><p>Fernando et Alzira Da Silva pour leur accueil et la d\u00e9licieuse cuisine.<\/p><p>Nil Dinc pour sa m\u00e9diation et les histoires partag\u00e9es.<\/p><p>Jean-Marc de Mourat pour son expertise sur les Plans Locaux d\u2019Urbanisme.<\/p><p>Jacques Dufour pour son temps, sa connaissance de l\u2019histoire de Sevran et ses nombreuses cartes.<\/p><p>Toutes les personnes du colloque \u00ab Savoir-habiter \u00bb avec la Terre du Centre des politiques de la Terre pour les retours pr\u00e9cieux et encourageants.<\/p><p>Dauren Omarov pour ses belles photographies d\u2019oiseaux.<\/p><p>Le collectif O\u00f9 atterrir pour nos \u00e9changes et en particulier Chlo\u00e9 Latour, Chantal Latour et Jean-Pierre Seyvos.<\/p><p>Cet ouvrage fait suite \u00e0 la pi\u00e8ce sonore <em>Contrevoix <\/em>r\u00e9alis\u00e9e par Charlotte Imbault et disponible en ligne : medialab.sciencespo.fr\/actu\/contrevoix-la-piece-sonore\/<\/p>"},"id":"5dee1d5b-d340-4798-a2cb-4a24943a3b73","isHidden":false,"type":"text"}]
+
+----
+
+Sources: 
+
+----
+
+Uuid: 33tIFRf0sVDmrjQ7

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Uuid: IyrnqVGc88AjUx78
+
+----
+
+Template: blocks/image
+
+----
+
+Sort: 9

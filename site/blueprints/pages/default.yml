@@ -45,6 +45,7 @@ columns:
                 fieldsets:    
                   - gallery
                   - image
+                  - spread
           sources:
             label: Sources
             type: list

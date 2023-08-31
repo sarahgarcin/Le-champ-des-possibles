@@ -7,6 +7,9 @@ columns:
       fields:
         type: fields
         fields:
+          info: 
+            label: Titre
+            type: text
           icones: 
             label: Sommaire
             type: structure

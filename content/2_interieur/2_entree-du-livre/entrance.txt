@@ -2,23 +2,27 @@ Title: Entrée du livre
 
 ----
 
+Info: Un portrait mosaïque
+
+----
+
 Icones:
 
 - 
   title: Un vide urbain
   page: p.11
   icone:
-    - file://B4iIwC535Oa7xFIG
+    - file://YiSFNLZrva23DHFY
 - 
   title: Une terre de projets
   page: p.0
   icone:
-    - file://OvUXOY6217O3HAk8
+    - file://ZAc6EadDIqeQcf0B
 - 
   title: Une zone à planifier
   page: p.45
   icone:
-    - file://Z2RzzWr1PwIwCWYR
+    - file://jSOPwhvWrJ6jBefL
 - 
   title: Un champ de banlieue
   page: p.91

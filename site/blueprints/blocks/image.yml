@@ -39,6 +39,13 @@ fields:
     label: field.blocks.image.link
     type: text
     icon: url
+  background:
+    label: Couleur de fond
+    type: radio
+    columns: 2
+    options:
+      white: Blanc
+      black: Noir
   position:
     label: Position
     type: radio

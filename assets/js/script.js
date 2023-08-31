@@ -35,8 +35,8 @@ class smartquote extends Paged.Handler {
         // replace ` -- ` with `&mdash;` 
         element.innerHTML = element.innerHTML.replace(regexCapital, '&mdash;');
         // console.log(element.innerHTML);
-        element.innerHTML = element.innerHTML.replace(/“/g, "«&#8239");
-        element.innerHTML = element.innerHTML.replace(/”/g, "&#8239»");
+        // element.innerHTML = element.innerHTML.replace(/“/g, "«&#8239");
+        // element.innerHTML = element.innerHTML.replace(/”/g, "&#8239»");
         element.innerHTML = element.innerHTML.replace("/« /g", "«&#8239");
         element.innerHTML = element.innerHTML.replace("/ »/g", "&#8239»");
     })
@@ -120,6 +120,9 @@ class fullPageStuff extends Paged.Handler {
       fullPage.element.classList.add("addedpage");
       fullPage.element.classList.add("pagedjs_named_page");
       fullPage.element.classList.add("pagedjs_pagedjs-fullpage_page");
+      if(img.classList.contains('background-black')){
+        fullPage.element.classList.add("pagedjs_pagedjs-fullpageblack_page");
+      }
       this.fullPageEls.delete(img);
     }
   }
@@ -162,23 +165,39 @@ class marginNotes extends Paged.Handler {
   beforeParsed(content) {
 
     let notes = content.querySelectorAll("." + classNotes);
+    let chapter = content.querySelector('.chapter');
+    let chapterName = chapter.dataset.page;
+    let noteNumber = 1;
 
     for (let i = 0; i < notes.length; ++i) {
+      // get parent chapter name
+      // this code is used to separate notes by chapters
+      let noteChapter = notes[i].closest('.chapter');
+      let noteChapterName = noteChapter.dataset.page;
+
+      if(chapterName != noteChapter){
+        noteNumber = 1;
+        chapterName = noteChapter;
+      }
 
       // Add call notes
       var spanCall = document.createElement("sup");
       spanCall.classList.add("note-call");
       spanCall.classList.add("note-call_" + classNotes);
-      spanCall.dataset.noteCall = classNotes + '-' + i + 1;
+      spanCall.dataset.noteCall = classNotes + '-' + noteNumber;
+      spanCall.innerHTML = noteNumber;
       notes[i].parentNode.insertBefore(spanCall, notes[i]);
 
       // Add marker notes
       var spanMarker = document.createElement("span");
       spanMarker.classList.add("note-marker");
       spanMarker.classList.add("note-marker_" + classNotes);
-      spanMarker.dataset.noteMarker = classNotes + '-' + i + 1;
+      spanMarker.dataset.noteMarker = classNotes + '-' + noteNumber;
+      spanMarker.innerHTML = noteNumber;
       notes[i].prepend(spanMarker);
 
+      // increase the number of the note
+      noteNumber ++;
 
       // Hide notes to avoid rendering problems
       notes[i].style.display = "none";
@@ -239,7 +258,8 @@ class marginNotes extends Paged.Handler {
       .note-marker_' + classNotes + '::before {\
         content: counter(markerNote_' + toCamelClassNote(classNotes) + ') "";\
       }\
-    ' + notePosition);
+    ' + notePosition
+    );
 
 
   } /* end beforeParsed*/

@@ -14,13 +14,17 @@
 				$picsTwo = $pics->slice($pics->count() / 2, $pics->count());
 			?>
 			<div class="entrance-page-left">
+				<h2><?= $chapter->info() ?></h2>
 				<ul>
 					<?php foreach($picsOne as $pic):?>
 						<li>
 							<figure>
 								<?php $image = $pic->icone()->toFile();?>
 								<img src="<?= $image->url()?>">
-								<figcaption><?= $pic->title()?> <?= $pic->page()?></figcaption>
+								<figcaption>
+									<p class="sommaire-visuel-title"><?= $pic->title()?></p>
+									<p class="sommaire-visuel-page"><?= $pic->page()?></p>
+								</figcaption>
 							</figure>
 						</li>
 					<?php endforeach?>
@@ -33,7 +37,10 @@
 							<figure>
 								<?php $image = $pic->icone()->toFile();?>
 								<img src="<?= $image->url()?>">
-								<figcaption><?= $pic->title()?> <?= $pic->page()?></figcaption>
+								<figcaption>
+									<p class="sommaire-visuel-title"><?= $pic->title()?></p>
+									<p class="sommaire-visuel-page"><?= $pic->page()?></p>
+								</figcaption>
 							</figure>
 						</li>
 					<?php endforeach?>
@@ -62,7 +69,6 @@
 				</figure>
 			<?php endif;?>
 			<div class="map-infos">
-				<h3><?= $chapter->title()?></h3>
 				<p><?= $chapter->caption()?></p>
 			</div>
 		</div>
@@ -77,13 +83,6 @@
 		</div>
 		<div class="chapter <?= $chapter->uid() ?>">
 			<h1><span class="highlight"><?= $chapter->title() ?></span></h1>
-			<section class="summary">
-				<ol>
-				<?php foreach($chapter->summary()->toStructure() as $item):?>
-					<li><?= $item->title()?></li>
-				<?php endforeach ?>
-				</ol>
-			</section>
 			<section class="content">
 				<?= $chapter->text()->toBlocks() ?>
 			</section>

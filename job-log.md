@@ -1,27 +1,108 @@
 # Job log
-- dessins en fin de chapitre 
-- http://clemenceseurat.com/CONTROVERSES_EN_ACTION/HABITABILITE%20EN%20TRAIN%20DE%20SE%20FAIRE/
-- https://www.youtube.com/watch?v=Ebt5eaLRG_w&pp=ygUdbGlua2NpdHkgbGEgdmFndWUgZ3JhbmQgcGFyaXM%3D
 
-## Bug intégration 
-- Citation -> note à la fin. Pour l'instant elles sont intégrées comme des textes en italique (avec le type de citation dans la note)
-- Problème avec les exposants (<sup></sup> ne fonctionne pas)
-- Penser à renommer no en n° (problème de copier coller)
+### Done 31/08
+- Problème avec les exposants, n°, XXe, m2 (<sup></sup> ne fonctionne pas, mais xx(sup:e) oui :)
+- Penser à renommer no en n° (problème de copier coller) et les m2 en m²
+
+### écrire à la main
+- ok - dans texte chapitre 5 => remplacer "ces" par "les" + créé (manque accent)
+
+### chap 6 - commun 
+> grossir un peu la forme et le titre au centre (si possible)
+> commentaires et suggestions ci-dessous (avec parfois réajustement des titres) :
+
+1/ l’histoire de la plaine Montceleux 
+ok pour les 3 visuels : frise, carte, travail sur table
+éventuellement mettre ton dessin du travail sur table devant la frise
+
+2/ le soin aux plantes
+ok pour le dessin de la serre + 1 doc écrit
+je propose de dessiner des légumes pour le 3e document : tu pourrais par ex t’appuyer sur la photo du replantage d’oignons ou des semis p.134 (chapitre 4)
+
+3/ l’observation des oiseaux
+ok pour les dessins d’oiseaux
+c’est cool aussi d’avoir la carte, on pourrait éventuellement ajouter un dessin de jumelles ?
+c’était l’équipement de l’atelier
+
+4/ la lecture de paysage + l'herbier
+je penses que 2 croquis montrant les strates suffisent
+ce serait pas mal de t’inspirer de la photo de l’atelier sur laquelle on nous voit en train de dessiner (p.212).
+pour montrer l’action en train de se faire, avec carnet et crayons.
+3 plantes suffisent pour l’herbier ?
+
+5/ prêter attention
+dessin + liste de questions = super
+tu pourrais éventuellement ajouter un 3e visuel qui zoomerait dans ce à quoi nous avons été attentives : des insectes, des plantes, les herbes qui bougent, par exemple.
+et je me dis que ce serait bien d’avoir une représentation des pratiques mobilisées dans l’atelier : une oreille pour l’écoute ? des gens en cercle qui s’échauffent ? des personnes qui regardent seules puis se baladent par deux ?
+
+6/ le collectif d’enquête 
+tes 2 dessins sont super et me semblent suffisants
+éventuellement, une 3 piste si on veut enrichir cet atelier serait le livre à venir ?
+
+## Pour un coup de clean  
+- Vérifier les césures 
+- Vérifier la justification des dernières lignes avant une page image
 
 ## TO DO
-- Mettre les images des cartographes
+- ok - Enlever titre pied de page sur l'ouverture de chapitre
+- Design ours
+- Design liste des abbréviations
+- Homogénéiser le design -> table des matières (filets)
+- Sommaire = Enlever les intertitres de l'introduction
+- Design sortie de livre --> à dessiner
+- Dessins => Cleaner les fonds blanc dessins: projets + plan 
+- Refaire le carré de l'image 07-ch03.jpg (trop épais) [pas maintenant]
+- Légendes centrées -> à peaufiner le design (quand il y a bcp de textes, centré = bizarre) --> attendre que les légendes soient terminées 
+- Changer la couverture 
+  + un peu plus flash / radical
+  + + de fun -> gaufrage 
+- On passe l'herbier en fond blanc, et toutes les images en fond blanc 
+- Pour les dessins, il faut qu'ils fassent 23,9cm de hauteur (sinon bug de dépassement) 
+- Peaufiner le design bien propre (espaces etc.)
 - Code pour faire un glossaire -> mot à chercher dans le texte, récupère la page et l'affiche --> ne fonctionne pas…
-- Design sortie de livre 
 - Faire la version web
 
 ## Couverture 
-- Sur la couverture ajouter un plan en vert (chapitre 6), celui en haut à droite sous le titre
+- ok - Sur la couverture ajouter un plan en vert (chapitre 6), celui en haut à droite sous le titre
 
 ## BUG(s)
 - Erreur dans la console sur pagedjs
   + Uncaught TypeError: Cannot read property 'getAttribute' of null
 
+-------------------------------------------------------
+
+## Modifs dessins done
+- ok- Modifs dessin 6
+- ok - à écrire à la main 
+  + MBAPPÉ
+  + une piscine à vagues pour surfer dans une « wavepool de classe mondiale »
+  + Écrire la liste des questions du chapitre 5 à la main 
+
+- chapitre 2 
+  - ok - retirer l’astérisque à zizou et la mention en bas (c’est drôle mais ça me semble trop personnel pour un ouvrage collectif écrit et fait à plusieurs mains) 
+  - ok - remplacer zizou par MBAPPÉ
+  - ok il manque "pour" avant MBAPPÉ
+  - ok - modifier comme suit : une piscine à vagues pour surfer dans une « wavepool de classe mondiale »
+- ok - chapitre 3 : revoir l’emplacement des dates ? notamment celle du SDRIF qui semble concerner la feuille du dessous (même si c’est la même date) : peut-être légèrement décaler ou les dates ou les territoires concernés
+- ok - chapitre 4 ; « on se baladait avec nos chiens » -> le « c » semble raturé // il manque un tiret  entre « a » et « t » : « pourquoi n’y a-t-il pas »
+
 ## Done
+- ok - Modifier les dessins
+- ok - Modifs sommaire visuelle 
+  + diminuer les formes 
+  + typos - même typo / harmoniser
+  + faire ressortir la narration -> les titres de chap
+- ok - Changer les icônes vectorielles en les dessinant à la main
+- ok - Ajouter dans la maquette les dessins modifiés + questions chap 5
+- ok - Écrire la liste des questions du chapitre 5 à la main 
+- ok - Développer un block qui permet d'ajouter des images en double page au sein d'un chapitre
+- ok - Simplifier toutes les cartes du chapitre une zone à planifier + les annoter à la main
+- ok - Faire des flèches à la main + carrés à la main dans les schémas de robin "une zone à planifier" --> à tester carte p92
+- ok - quand il y a 3 images -> les mettre les unes au dessus des autres
+- ok - légendes: augmenter l’espace entre l’image et la légende (elle est trop collée).
+- ok - carte atelier carto -> double page == pleine page sans marge
+- ok - Enlever les cadres titres + les sous-titres entrée de chapitre 
+- ok - Changer sommaire visuel -> titre gros + typo titre
 - ok - Debug upload svg
   + Il faut cleaner les svgs : https://jakearchibald.github.io/svgomg/
 - ok - Faire fonctionner les icônes pour qu'ils soient associés à un chapitre
@@ -59,7 +140,6 @@
 - ok - Designer les citations…
 
 ## Questions
-
 
 ## Questions déjà posées
 - Les dessins 
