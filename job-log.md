@@ -1,57 +1,36 @@
 # Job log
 
-### Done 31/08
-- Problème avec les exposants, n°, XXe, m2 (<sup></sup> ne fonctionne pas, mais xx(sup:e) oui :)
-- Penser à renommer no en n° (problème de copier coller) et les m2 en m²
+## couverture 
+- voir mail
 
-### écrire à la main
-- ok - dans texte chapitre 5 => remplacer "ces" par "les" + créé (manque accent)
+## sommaire visuel 
+- enlever le titre 
+- terminer les formes dessinées
+- revenir à un juste milieu entre la versio précédente et la nouvelle
 
-### chap 6 - commun 
-> grossir un peu la forme et le titre au centre (si possible)
-> commentaires et suggestions ci-dessous (avec parfois réajustement des titres) :
-
-1/ l’histoire de la plaine Montceleux 
-ok pour les 3 visuels : frise, carte, travail sur table
-éventuellement mettre ton dessin du travail sur table devant la frise
-
-2/ le soin aux plantes
-ok pour le dessin de la serre + 1 doc écrit
-je propose de dessiner des légumes pour le 3e document : tu pourrais par ex t’appuyer sur la photo du replantage d’oignons ou des semis p.134 (chapitre 4)
-
-3/ l’observation des oiseaux
-ok pour les dessins d’oiseaux
-c’est cool aussi d’avoir la carte, on pourrait éventuellement ajouter un dessin de jumelles ?
-c’était l’équipement de l’atelier
-
-4/ la lecture de paysage + l'herbier
-je penses que 2 croquis montrant les strates suffisent
-ce serait pas mal de t’inspirer de la photo de l’atelier sur laquelle on nous voit en train de dessiner (p.212).
-pour montrer l’action en train de se faire, avec carnet et crayons.
-3 plantes suffisent pour l’herbier ?
-
-5/ prêter attention
-dessin + liste de questions = super
-tu pourrais éventuellement ajouter un 3e visuel qui zoomerait dans ce à quoi nous avons été attentives : des insectes, des plantes, les herbes qui bougent, par exemple.
-et je me dis que ce serait bien d’avoir une représentation des pratiques mobilisées dans l’atelier : une oreille pour l’écoute ? des gens en cercle qui s’échauffent ? des personnes qui regardent seules puis se baladent par deux ?
-
-6/ le collectif d’enquête 
-tes 2 dessins sont super et me semblent suffisants
-éventuellement, une 3 piste si on veut enrichir cet atelier serait le livre à venir ?
+## chap 6 - commun 
+- retirer un élément visuel à l'herbier-lecture de paysage (un dessin de alizée ou un scan ?)
+- mettre le titre pour le 6e atelier en haut à gauche : le collectif d'enquête
+- ajouter les articles pour harmoniser : le soin aux plantes / l'observation des oiseaux / l'herbier / la lecture de paysage
+- mettre les jumelles en-dessous du titre ? (peut-être c'est pas une bonne idée) 
 
 ## Pour un coup de clean  
 - Vérifier les césures 
 - Vérifier la justification des dernières lignes avant une page image
+- dans les notes supprimer les (sup:e) pour les remplacer dans le fichier texte racine par <sup>e</sup>
 
 ## TO DO
-- ok - Enlever titre pied de page sur l'ouverture de chapitre
-- Design ours
-- Design liste des abbréviations
-- Homogénéiser le design -> table des matières (filets)
-- Sommaire = Enlever les intertitres de l'introduction
+- Retravailler la couverture
+- Retravailler le sommaire visuel
+- les exposants ne fonctionnent pas dans les notes 
+- Tester ça : https://github.com/yanntrividic/ragadjustfr
+- Ajouter ça ? https://gitlab.com/JulieBlanc/typesetting-tools/-/blob/master/regex-typo.js?ref_type=heads 
+- terre de projets : refaire MBAPPÉ
+- faire les formes entrées de chapitre à la main
+- ajouter logo 369 à l'ours
 - Design sortie de livre --> à dessiner
 - Dessins => Cleaner les fonds blanc dessins: projets + plan 
-- Refaire le carré de l'image 07-ch03.jpg (trop épais) [pas maintenant]
+- Refaire le carré de l'image 07-ch03.jpg (trop épais) 
 - Légendes centrées -> à peaufiner le design (quand il y a bcp de textes, centré = bizarre) --> attendre que les légendes soient terminées 
 - Changer la couverture 
   + un peu plus flash / radical
@@ -87,6 +66,13 @@ tes 2 dessins sont super et me semblent suffisants
 - ok - chapitre 4 ; « on se baladait avec nos chiens » -> le « c » semble raturé // il manque un tiret  entre « a » et « t » : « pourquoi n’y a-t-il pas »
 
 ## Done
+- ok - Problème avec les exposants, n°, XXe, m2 (<sup></sup> ne fonctionne pas, mais xx(sup:e) oui :)
+- ok - Penser à renommer no en n° (problème de copier coller) et les m2 en m²
+- ok - Enlever titre pied de page sur l'ouverture de chapitre
+- ok - Design ours
+- ok - Design liste des abbréviations
+- ok - Homogénéiser le design -> table des matières (filets)
+- ok - Sommaire = Enlever les intertitres de l'introduction
 - ok - Modifier les dessins
 - ok - Modifs sommaire visuelle 
   + diminuer les formes 

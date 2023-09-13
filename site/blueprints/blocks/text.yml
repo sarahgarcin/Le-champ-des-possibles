@@ -9,5 +9,6 @@ fields:
   text:
     label: Texte
     type: writer
-    nodes: false
+    nodes:
+      - heading
     placeholder: field.blocks.text.placeholder

@@ -664,20 +664,23 @@ function createToc(config){
         let titleHierarchy = i + 1;
         let titleElement = content.querySelectorAll(titleElements[i]);
 
-
         titleElement.forEach(function(element) {
+          if (element.closest('.introduction') && element.tagName.toLowerCase() === 'h2') {
+            // do nothing
+          }
+          else{
+              // add classes to the element
+              element.classList.add("title-element");
+              element.setAttribute("data-title-level", titleHierarchy);
 
-            // add classes to the element
-            element.classList.add("title-element");
-            element.setAttribute("data-title-level", titleHierarchy);
-
-            // add id if doesn't exist
-            tocElementNbr++;
-            idElement = element.id;
-            if(idElement == ''){
-                element.id = 'title-element-' + tocElementNbr;
-            }
-            let newIdElement = element.id;
+              // add id if doesn't exist
+              tocElementNbr++;
+              idElement = element.id;
+              if(idElement == ''){
+                  element.id = 'title-element-' + tocElementNbr;
+              }
+              let newIdElement = element.id;
+          }
 
         });
 

@@ -1,0 +1,25 @@
+Title: Liste des sigles et abréviations
+
+----
+
+Icone: 
+
+----
+
+Pics: 
+
+----
+
+Summary: 
+
+----
+
+Text: [{"content":{"spacing":null,"text":"<p>API \u2014 Appel \u00e0 Projet Innovant<\/p><p>APRAE \u2014 Association pour la recherche d\u2019alternatives \u00e0 l\u2019exclusion<\/p><p>Base de donn\u00e9es BASIAS \u2014 Base de donn\u00e9es des anciens sites industriels et activit\u00e9s de services<\/p><p>Base de donn\u00e9es BASOL \u2014 base de donn\u00e9es des sites et sols pollu\u00e9s (ou potentiellement pollu\u00e9s) par les activit\u00e9s industrielles<\/p><p>CASDAR \u2014 Compte d\u2019affectation sp\u00e9cial \u00ab D\u00e9veloppement agricole et rural \u00bb<\/p><p>Cerema \u2014 Centre d'\u00e9tudes et d'expertise sur les risques, l'environnement, la mobilit\u00e9 et l'am\u00e9nagement<\/p><p>CIPENAF \u2014 Commission interd\u00e9partementale de pr\u00e9servation des es-paces naturels, agricoles et forestiers<\/p><p>ICU \u2014 \u00celot de chaleur urbain\u00a0<\/p><p>IMGP \u2014 appel \u00e0 projets \u00ab\u00a0Imaginons la m\u00e9tropole du Grand Paris\u00a0\u00bb<\/p><p>Loi ESSOC \u2014 la loi pour un \u00c9tat au service d\u2019une soci\u00e9t\u00e9 de confiance (2018)<\/p><p>Loi MAPTAM \u2014 loi de modernisation de l'action publique territoriale et d'affirmation des m\u00e9tropoles (loi n\u00b02014-58 du 27 janvier 2014)<\/p><p>Loi NOTRe \u2014 loi portant nouvelle organisation territoriale de la R\u00e9publique (loi 2015-991 du 7 ao\u00fbt 2015)<\/p><p>MGP \u2014 M\u00e9tropole du Grand Paris<\/p><p>OAP \u2014 Orientations d\u2019am\u00e9nagement et de programmation\u00a0(dans le PLU)<\/p><p>PADOG \u2014 Plan d\u2019am\u00e9nagement etd\u2019organisation g\u00e9n\u00e9rale de la r\u00e9gion parisienne<\/p><p>PAZ \u2014 Plan d'am\u00e9nagement de zone<\/p><p>PLU<strong> <\/strong>\u2014 Plan local d\u2019urbanisme<\/p><p>PLUi \u2014 Plan local d\u2019urbanisme intercommunal ou communautaire<\/p><p>POS \u2014 Plans d\u2019Occupation des Sols<\/p><p>SAES \u2014 Soci\u00e9t\u00e9 d'am\u00e9nagement \u00e9conomique et social<\/p><p>SAFER \u2014 Soci\u00e9t\u00e9 d\u2019am\u00e9nagement foncier et d\u2019\u00e9tablissement rural<\/p><p>SDAURP \u2014 Sch\u00e9ma d\u2019am\u00e9nagement et d\u2019urbanisme de la r\u00e9gion de Paris<\/p><p>SDRIF \u2014 Sch\u00e9ma directeur de la r\u00e9gion \u00cele-de-France<\/p><p>SRCE \u2014 Sch\u00e9ma r\u00e9gional de coh\u00e9rence \u00e9cologique<\/p><p>SRU \u2014 loi Solidarit\u00e9 et renouvellement urbain<\/p><p>TVB \u2014 Trame verte et bleue<\/p><p>ZAC \u2014 zone d\u2019am\u00e9nagement concert\u00e9<\/p><p>ZNIEFF \u2014 Zone naturelle d\u2019int\u00e9r\u00eat \u00e9cologique, faunistique et floristique<\/p><p>ZUP \u2014 \u00ab\u202fzone \u00e0 urbaniser par\/en priorit\u00e9\u202f\u00bb<\/p>"},"id":"cfaf2b9e-99a7-43d1-bb3a-5e520a32b699","isHidden":false,"type":"text"}]
+
+----
+
+Sources: 
+
+----
+
+Uuid: Qksdv9mg4vtMcyiw

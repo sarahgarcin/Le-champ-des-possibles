@@ -68,9 +68,6 @@
 					<img src="<?= $map->url()?>" alt="<?= $chapter->title()?>">
 				</figure>
 			<?php endif;?>
-			<div class="map-infos">
-				<p><?= $chapter->caption()?></p>
-			</div>
 		</div>
 	<?php endif?>
 	<?php if($chapter->intendedTemplate() == "default"):?>
@@ -111,6 +108,13 @@
 				</ul>
 			</section>
 			
+		</div>
+	<?php endif;?>
+	<?php if($chapter->intendedTemplate() == "ours"):?>
+		<div class="ours">
+			<section class="content">
+				<?= $chapter->text()->kt() ?>
+			</section>
 		</div>
 	<?php endif;?>
 <?php endforeach ?>
