@@ -16,5 +16,8 @@
 	<!-- <script src="assets/js/plugins/pagedjs-plugin-baseline.js"></script> -->
 	<!-- <script src="assets/js/plugins/pagedjs-plugin-fullpage.js"></script> -->
 	<script src="assets/js/script.js"></script>
+	<script src="assets/js/plugins/ragadjust.js" type="text/javascript"></script>
+	<script src="assets/js/plugins/ragadjust-hook.js" type="text/javascript"></script>
+	<script src="assets/js/plugins/regex-typo.js" type="text/javascript"></script>
 </head>
 <body class="<?php echo $page->template()?>">

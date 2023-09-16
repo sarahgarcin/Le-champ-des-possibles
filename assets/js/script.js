@@ -1,3 +1,17 @@
+class correctTypo extends Paged.Handler {
+  constructor(chunker, polisher, caller) {
+      super(chunker, polisher, caller);
+  }
+
+  beforeParsed(content) {
+    orthotypo(content);
+    // spaces(content);
+    exposants(content);
+  }
+}
+
+Paged.registerHandlers(correctTypo);
+
 // fixed text align jutify before images page
 class fixJustif extends Paged.Handler {
   constructor(chunker, polisher, caller) {
@@ -12,7 +26,7 @@ class fixJustif extends Paged.Handler {
         // console.log(currentPageClassList[0], nextPageClassList);
 
         if(currentPageClassList[0] == "pagedjs_page" && nextPageClassList[4] == "pagedjs_pagedjs-fullpage_page"){
-          console.log('div with images following');
+          // console.log('div with images following');
           let pageId = pages[i].id;
           let selectedPage = document.getElementById(pageId);
           let selectedLastP = selectedPage.querySelector(".chapter .content > p:last-child");
@@ -180,7 +194,7 @@ class wrapHeaders extends Paged.Handler {
     });
   }   
 }
-Paged.registerHandlers(wrapHeaders);
+// Paged.registerHandlers(wrapHeaders);
 
 // -------------- M A R G I N     N O T E S      S C R I P T -----------------
 
