@@ -120,6 +120,15 @@ ul li{
 	list-style: none;
 }
 
+figure.logo {
+	margin-top: calc(var(--baseline) * 3);
+	margin-bottom: var(--baseline);
+}
+
+figure.logo img{
+	width:1.5cm;
+}
+
 /*sup, sub {
   vertical-align: top;
   position: relative;
@@ -171,6 +180,90 @@ ul li{
 }
 
 
+/* pages d'entrée du livre */
+
+.mapentrance-page{
+	page-break-after: always;
+}
+
+.mapentrance-page h1{
+	font-size: 80px;
+	line-height: 1.1;
+	margin: 2cm;
+	margin-bottom: 0;
+}
+
+.mapentrance-page h2{
+	font-size: 30px;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	margin-bottom: 2cm;
+}
+
+.mapentrance-page h3{
+	font-size: 20px;
+	font-family: var(--title-font);
+	margin: 0 2cm;
+	line-height: 1.2;
+
+}
+
+.mapentrance-page p{
+	font-size: 11pt;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	margin-top: var(--baseline);
+	line-height: 1.2;
+}
+
+.mapentrance-page .logo{
+	position: relative; 
+	top: 8cm;
+	left: 2cm;
+	width: auto;
+}
+
+.mapentrance-page figure{
+  position: relative;
+  top: 6cm;
+  width: 14cm;
+  margin: auto;
+  /*margin-top: -50%;*/
+}
+
+.mapentrance-page.black{
+	page: entranceblack;
+}
+
+.mapentrance-page.black p,
+.mapentrance-page.black h1,
+.mapentrance-page.black h2,
+.mapentrance-page.black h3{
+	color: #FFF;
+}
+
+@page entranceblack{
+	background: #000;
+	margin:0;
+	@bottom-right {content: none;}
+	@bottom-left {content: none;}
+  @bottom-left-corner {content:none;} 
+}
+
+
+.mapentrance-page.white{
+	page: entrancepage;
+}
+
+@page entrancepage{
+	background: #FFF;
+	margin:0;
+	@bottom-right {content: none;}
+	@bottom-left {content: none;}
+  @bottom-left-corner {content:none;} 
+}
+
+/* ------ */
 
 /* entrance pages */
 .entrance-page > div {
@@ -210,7 +303,7 @@ ul li{
 }
 
 .entrance-page-right li:nth-child(2){
-	left: 6cm;
+	left: 7cm;
 	top: 6.5cm;
 }
 
@@ -229,6 +322,7 @@ ul li{
 	color: #FFF;
 	margin:0;
 	font-size: 10pt;
+	font-family: var(--title-font) ;
 }
 
 .entrance-page li figcaption .sommaire-visuel-title{
@@ -446,6 +540,15 @@ ul li{
 	margin-top: -0.1mm;
 }
 
+.chapter .content p:last-child{
+	/*text-align-last: justify;*/
+}
+
+.pagedjs_page ~ .pagedjs_pagedjs-fullpage_page + .chapter .content p:last-child {
+	color: red;
+	text-align-last: justify;
+}
+
 .chapter .content p .highlight{
 	display: inline;
 	outline: 1px solid #000;
@@ -490,6 +593,11 @@ ul li{
 	text-align: justify;
 	margin-bottom: var(--baseline);
 }
+
+.chapter .content blockquote p{
+	text-align-last: left;
+}
+
 
 .chapter .content blockquote footer{
 	margin-top:  var(--baseline); 
@@ -550,7 +658,7 @@ figure.full-page{
 	position: absolute;
   top: 50%;
 	transform: translateY(-50%);
-	filter: grayscale(1);
+	/*filter: grayscale(1);*/
 	/*width: 139mm;*/
 	/*margin-left: -37mm;*/
 }
@@ -580,6 +688,27 @@ figure.full-page.bottom{
 @page pagedjs-fullpage{
 	background: #FFF;
 	margin:13mm;
+
+	@bottom-right {
+   content: counter(page);
+   font-size: 9pt;
+   text-align: right;
+   float: right;
+   font-family: var(--text-font);
+   color: var(--grey);
+   margin-bottom: -5mm;
+   font-weight: 500;
+ 	}
+
+ 	/*titre courant*/
+ 	@bottom-left {
+ 		content: string(title);
+    font-size: 9pt;
+    margin-left: -3.3cm;
+    font-family: var(--text-font);
+    margin-bottom: -5mm;
+    font-weight: 500;
+  }
 }
 
 @page pagedjs-fullpageblack{
@@ -595,7 +724,7 @@ figure.background-black figcaption, figure.background-black figcaption a{
 }
 
 .images-gallery{
-	filter: grayscale(1);
+	/*filter: grayscale(1);*/
 }
 
 .images-gallery ul{
@@ -735,7 +864,7 @@ figure.background-black figcaption, figure.background-black figcaption a{
 	break-before: always; 
 	break-after: always;
 	page: map;
-	filter: grayscale(1);
+	/*filter: grayscale(1);*/
 }
 
 
@@ -1200,7 +1329,7 @@ figure.background-black figcaption, figure.background-black figcaption a{
 /* liste-des-sigles-et-abreviations */
 
 .liste-des-sigles-et-abreviations{
-	break-before: left;
+	break-before: right;
 	page: sigles;
 }
 
@@ -1210,6 +1339,11 @@ figure.background-black figcaption, figure.background-black figcaption a{
 
 .liste-des-sigles-et-abreviations h1{
 	/*margin-left: 0;*/
+}
+
+.liste-des-sigles-et-abreviations p{
+	text-align: left;
+	hyphens: none;
 }
 
 @page sigles{

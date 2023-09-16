@@ -1,3 +1,33 @@
+// fixed text align jutify before images page
+class fixJustif extends Paged.Handler {
+  constructor(chunker, polisher, caller) {
+    super(chunker, polisher, caller);
+  }
+
+  afterRendered(pages){
+    for(let i=0; i<pages.length; i++){
+      let currentPageClassList = pages[i].element.classList;
+      if(i+1 < pages.length){
+        let nextPageClassList = pages[i+1].element.classList;
+        // console.log(currentPageClassList[0], nextPageClassList);
+
+        if(currentPageClassList[0] == "pagedjs_page" && nextPageClassList[4] == "pagedjs_pagedjs-fullpage_page"){
+          console.log('div with images following');
+          let pageId = pages[i].id;
+          let selectedPage = document.getElementById(pageId);
+          let selectedLastP = selectedPage.querySelector(".chapter .content > p:last-child");
+          // console.log(selectedPage, selectedLastP);
+          if(selectedLastP != null){
+            selectedLastP.style.textAlignLast = "justify";
+          }
+          
+        }
+      }
+    }        
+  }
+}
+Paged.registerHandlers(fixJustif);
+
 // ------------------ TABLE OF CONTENTS --------------
 
 class toc extends Paged.Handler {

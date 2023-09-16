@@ -8,37 +8,22 @@
 - terminer les formes dessinées
 - revenir à un juste milieu entre la versio précédente et la nouvelle
 
-## chap 6 - commun 
-- retirer un élément visuel à l'herbier-lecture de paysage (un dessin de alizée ou un scan ?)
-- mettre le titre pour le 6e atelier en haut à gauche : le collectif d'enquête
-- ajouter les articles pour harmoniser : le soin aux plantes / l'observation des oiseaux / l'herbier / la lecture de paysage
-- mettre les jumelles en-dessous du titre ? (peut-être c'est pas une bonne idée) 
-
-## Pour un coup de clean  
+## Pour un coup de clean 
+- pagination sommaire visuel 
 - Vérifier les césures 
 - Vérifier la justification des dernières lignes avant une page image
 - dans les notes supprimer les (sup:e) pour les remplacer dans le fichier texte racine par <sup>e</sup>
 
 ## TO DO
+- voir mail clémence
+- mettre les pieds de page sur les page images 
 - Retravailler la couverture
 - Retravailler le sommaire visuel
 - les exposants ne fonctionnent pas dans les notes 
 - Tester ça : https://github.com/yanntrividic/ragadjustfr
 - Ajouter ça ? https://gitlab.com/JulieBlanc/typesetting-tools/-/blob/master/regex-typo.js?ref_type=heads 
-- terre de projets : refaire MBAPPÉ
-- faire les formes entrées de chapitre à la main
-- ajouter logo 369 à l'ours
-- Design sortie de livre --> à dessiner
-- Dessins => Cleaner les fonds blanc dessins: projets + plan 
-- Refaire le carré de l'image 07-ch03.jpg (trop épais) 
 - Légendes centrées -> à peaufiner le design (quand il y a bcp de textes, centré = bizarre) --> attendre que les légendes soient terminées 
-- Changer la couverture 
-  + un peu plus flash / radical
-  + + de fun -> gaufrage 
-- On passe l'herbier en fond blanc, et toutes les images en fond blanc 
-- Pour les dessins, il faut qu'ils fassent 23,9cm de hauteur (sinon bug de dépassement) 
 - Peaufiner le design bien propre (espaces etc.)
-- Code pour faire un glossaire -> mot à chercher dans le texte, récupère la page et l'affiche --> ne fonctionne pas…
 - Faire la version web
 
 ## Couverture 
@@ -65,7 +50,20 @@
 - ok - chapitre 3 : revoir l’emplacement des dates ? notamment celle du SDRIF qui semble concerner la feuille du dessous (même si c’est la même date) : peut-être légèrement décaler ou les dates ou les territoires concernés
 - ok - chapitre 4 ; « on se baladait avec nos chiens » -> le « c » semble raturé // il manque un tiret  entre « a » et « t » : « pourquoi n’y a-t-il pas »
 
+## chap 6 - commun 
+- ok - retirer un élément visuel à l'herbier-lecture de paysage (un dessin de alizée ou un scan ?)
+- mettre le titre pour le 6e atelier en haut à gauche : le collectif d'enquête
+- ok - ajouter les articles pour harmoniser : le soin aux plantes / l'observation des oiseaux / l'herbier / la lecture de paysage
+- ok - mettre les jumelles en-dessous du titre ? (peut-être c'est pas une bonne idée) 
+
 ## Done
+- ok - ajouter logo 369 à l'ours
+- ok - On passe l'herbier en fond blanc, et toutes les images en fond blanc 
+- ok - Pour les dessins, il faut qu'ils fassent 23,9cm de hauteur (sinon bug de dépassement) 
+- ok - Dessins => Cleaner les fonds blanc dessins: projets + plan 
+- ok - Refaire le carré de l'image 07-ch03.jpg (trop épais) 
+- ok - terre de projets : refaire MBAPPÉ
+- ok - faire les formes entrées de chapitre à la main
 - ok - Problème avec les exposants, n°, XXe, m2 (<sup></sup> ne fonctionne pas, mais xx(sup:e) oui :)
 - ok - Penser à renommer no en n° (problème de copier coller) et les m2 en m²
 - ok - Enlever titre pied de page sur l'ouverture de chapitre

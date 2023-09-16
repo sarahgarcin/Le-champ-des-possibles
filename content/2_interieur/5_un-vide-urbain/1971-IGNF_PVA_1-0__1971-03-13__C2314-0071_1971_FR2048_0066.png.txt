@@ -1,9 +1,0 @@
-Caption: 1971
-
-----
-
-Uuid: MDk43vIp88tckegI
-
-----
-
-Sort: 11

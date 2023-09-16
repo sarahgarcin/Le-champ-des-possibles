@@ -6,6 +6,20 @@
 	<?php if($chapter->intendedTemplate() == "blank"):?>
 		<div class="blank-page <?= $chapter->whiteblack() ?>"></div>
 	<?php endif;?>
+	<?php if($chapter->intendedTemplate() == "mapentrance"):?>
+		<div class="mapentrance-page <?= $chapter->whiteblack() ?>">
+			<?php if($image = $chapter->pic()->toFile()): ?>
+				<figure class="image-mapentrance">
+					<?= $image ?>
+				</figure>
+			<?php endif;?>
+			<?php if($chapter->text()->isNotEmpty()):?>
+				<section class="content">
+					<?= $chapter->text()->kt() ?>
+				</section>
+			<?php endif;?>
+		</div>
+	<?php endif;?>
 	<?php if($chapter->intendedTemplate() == "entrance"):?>
 		<div class="entrance-page" id="<?= Str::slug($chapter->title())?>">
 			<?php 
@@ -14,17 +28,17 @@
 				$picsTwo = $pics->slice($pics->count() / 2, $pics->count());
 			?>
 			<div class="entrance-page-left">
-				<h2><?= $chapter->info() ?></h2>
 				<ul>
 					<?php foreach($picsOne as $pic):?>
 						<li>
 							<figure>
-								<?php $image = $pic->icone()->toFile();?>
-								<img src="<?= $image->url()?>">
-								<figcaption>
-									<p class="sommaire-visuel-title"><?= $pic->title()?></p>
-									<p class="sommaire-visuel-page"><?= $pic->page()?></p>
-								</figcaption>
+								<?php if($image = $pic->icone()->toFile()):?>
+									<img src="<?= $image->url()?>">
+									<figcaption>
+										<p class="sommaire-visuel-title"><?= $pic->title()?></p>
+										<p class="sommaire-visuel-page"><?= $pic->page()?></p>
+									</figcaption>
+								<?php endif;?>
 							</figure>
 						</li>
 					<?php endforeach?>
@@ -35,12 +49,13 @@
 					<?php foreach($picsTwo as $pic):?>
 						<li>
 							<figure>
-								<?php $image = $pic->icone()->toFile();?>
-								<img src="<?= $image->url()?>">
-								<figcaption>
-									<p class="sommaire-visuel-title"><?= $pic->title()?></p>
-									<p class="sommaire-visuel-page"><?= $pic->page()?></p>
-								</figcaption>
+								<?php if($image = $pic->icone()->toFile()):?>
+									<img src="<?= $image->url()?>">
+									<figcaption>
+										<p class="sommaire-visuel-title"><?= $pic->title()?></p>
+										<p class="sommaire-visuel-page"><?= $pic->page()?></p>
+									</figcaption>
+								<?php endif;?>
 							</figure>
 						</li>
 					<?php endforeach?>
